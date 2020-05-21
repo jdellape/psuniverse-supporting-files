@@ -1,0 +1,1475 @@
+MATCH (n) DETACH DELETE n;
+CREATE (AJWallace:Person:Player {name: 'A.J. Wallace', position: 'CB', homeCity: 'Waldorf', homeState: 'Md.', yearsOnRoster: [2009]})
+CREATE (ChazPowell:Person:Player {name: 'Chaz Powell', position: 'WR', homeCity: 'New Freedom', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (BrandonBeachum:Person:Player {name: 'Brandon Beachum', position: 'RB', homeCity: 'Struthers', homeState: 'Ohio', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (ShawneyKersey:Person:Player {name: 'Shawney Kersey', position: 'WR', homeCity: 'Woodbury', homeState: 'N.J.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (KnowledgeTimmons:Person:Player {name: 'Knowledge Timmons', position: 'CB', homeCity: 'York', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (JeromeHayes:Person:Player {name: 'Jerome Hayes', position: 'DE', homeCity: 'Bayonne', homeState: 'N.J.', yearsOnRoster: [2009]})
+CREATE (GrahamZug:Person:Player {name: 'Graham Zug', position: 'WR', homeCity: 'Manheim', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (GeraldHodges:Person:Player {name: 'Gerald Hodges', position: 'LB', homeCity: 'Paulsboro', homeState: 'N.J.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (DerekMoye:Person:Player {name: 'Derek Moye', position: 'WR', homeCity: 'Rochester', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (CurtisDrake:Person:Player {name: 'Curtis Drake', position: 'WR', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (CedricJeffries:Person:Player {name: 'Cedric Jeffries', position: 'Saf', homeCity: 'Egg Harbor Township', homeState: 'N.J.', yearsOnRoster: [2009]})
+CREATE (DLynn:Person:Player {name: 'D Lynn', position: 'CB', homeCity: 'Celina', homeState: 'Texas', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (BrandonMosebyFelder:Person:Player {name: 'Brandon Moseby-Felder', position: 'WR', homeCity: 'Fort Washington', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MichaelZordich:Person:Player {name: 'Michael Zordich', position: 'LB', homeCity: 'Youngstown', homeState: 'Ohio', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (AndrewQuarless:Person:Player {name: 'Andrew Quarless', position: 'TE', homeCity: 'Uniondale', homeState: 'N.Y.', yearsOnRoster: [2009]})
+CREATE (NavorroBowman:Person:Player {name: 'Navorro Bowman', position: 'LB', homeCity: 'District Heights', homeState: 'Md.', yearsOnRoster: [2009]})
+CREATE (MatthewMcGloin:Person:Player {name: 'Matthew McGloin', position: 'QB', homeCity: 'Scranton', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (EvanLewis:Person:Player {name: 'Evan Lewis', position: 'DB', homeCity: 'Gettysburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (StephonMorris:Person:Player {name: 'Stephon Morris', position: 'CB', homeCity: 'Greenbelt', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (KevinNewsome:Person:Player {name: 'Kevin Newsome', position: 'QB', homeCity: 'Portsmouth', homeState: 'Va.', yearsOnRoster: [2009, 2010]})
+CREATE (AndrewDailey:Person:Player {name: 'Andrew Dailey', position: 'Saf', homeCity: 'Massillon', homeState: 'Ohio', yearsOnRoster: [2009, 2010]})
+CREATE (MarkWedderburn:Person:Player {name: 'Mark Wedderburn', position: 'TE', homeCity: 'Upper Darby', homeState: '', yearsOnRoster: [2009]})
+CREATE (AJPrice:Person:Player {name: 'A.J. Price', position: 'WR', homeCity: 'Reston', homeState: 'Va.', yearsOnRoster: [2009]})
+CREATE (MikeWallace:Person:Player {name: 'Mike Wallace', position: 'DB', homeCity: 'Silver Springs', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (BaniGbadyu:Person:Player {name: 'Bani Gbadyu', position: 'LB', homeCity: 'Gaithersburg', homeState: 'Md.', yearsOnRoster: [2009, 2010]})
+CREATE (StevenHill:Person:Player {name: 'Steven Hill', position: 'QB', homeCity: 'Colleyville', homeState: 'Texas', yearsOnRoster: [2009]})
+CREATE (JohnKelly:Person:Player {name: 'John Kelly', position: 'QB', homeCity: 'Frederick', homeState: 'Md.', yearsOnRoster: [2009]})
+CREATE (SheltonMcCullough:Person:Player {name: 'Shelton McCullough', position: 'CB', homeCity: 'Randallstown', homeState: 'Md.', yearsOnRoster: [2009, 2010]})
+CREATE (ShaneMcGregor:Person:Player {name: 'Shane McGregor', position: 'QB', homeCity: 'Ebensburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (DaryllClark:Person:Player {name: 'Daryll Clark', position: 'QB', homeCity: 'Youngstown', homeState: 'Ohio', yearsOnRoster: [2009]})
+CREATE (BrennanCoakley:Person:Player {name: 'Brennan Coakley', position: 'TE', homeCity: 'Newtown', homeState: 'Conn.', yearsOnRoster: [2009]})
+CREATE (NickSukay:Person:Player {name: 'Nick Sukay', position: 'Saf', homeCity: 'Mt. Pleasant', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JustinBrown:Person:Player {name: 'Justin Brown', position: 'WR', homeCity: 'Wilmington', homeState: 'Del.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (GarrettVenuto:Person:Player {name: 'Garrett Venuto', position: 'QB', homeCity: 'Ithaca', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (DevonSmith:Person:Player {name: 'Devon Smith', position: 'WR', homeCity: 'White Plains', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (StephfonGreen:Person:Player {name: 'Stephfon Green', position: 'TB', homeCity: 'Bronx', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (TariqTongue:Person:Player {name: 'Tariq Tongue', position: 'WR', homeCity: 'Flushing', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (EvanRoyster:Person:Player {name: 'Evan Royster', position: 'TB', homeCity: 'Fairfax', homeState: 'Va.', yearsOnRoster: [2009, 2010]})
+CREATE (StephenObengAgyapong:Person:Player {name: 'Stephen Obeng-Agyapong', position: 'DB', homeCity: 'Bronx', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (ShaineThompson:Person:Player {name: 'Shaine Thompson', position: 'RB', homeCity: 'Bronx', homeState: 'N.Y.', yearsOnRoster: [2009]})
+CREATE (DerekDay:Person:Player {name: 'Derek Day', position: 'RB', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MalcolmWillis:Person:Player {name: 'Malcolm Willis', position: 'DB', homeCity: 'Marbury', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (AndrewGoodman:Person:Player {name: 'Andrew Goodman', position: 'WR', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (DerrickThomas:Person:Player {name: 'Derrick Thomas', position: 'DB', homeCity: 'Greenbelt', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (CurtisDukes:Person:Player {name: 'Curtis Dukes', position: 'RB', homeCity: 'Evans Mills', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JDMason:Person:Player {name: 'J.D. Mason', position: 'WR', homeCity: 'Philipsburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JacobFagnano:Person:Player {name: 'Jacob Fagnano', position: 'DB', homeCity: 'Wiliamsport', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (DrewAstorino:Person:Player {name: 'Drew Astorino', position: 'Saf', homeCity: 'Edinboro', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (DavidSoldner:Person:Player {name: 'David Soldner', position: 'K', homeCity: 'Lititz', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (KevinKowalishen:Person:Player {name: 'Kevin Kowalishen', position: 'RB', homeCity: 'Northampton', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (AnthonyFera:Person:Player {name: 'Anthony Fera', position: 'PK', homeCity: 'Cypress', homeState: 'Texas', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JoshMatzkin:Person:Player {name: 'Josh Matzkin', position: 'FB', homeCity: 'Tampa', homeState: 'Fla.', yearsOnRoster: [2009]})
+CREATE (NickDelligatti:Person:Player {name: 'Nick Delligatti', position: 'LB', homeCity: 'Grove City', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (BrentCarter:Person:Player {name: 'Brent Carter', position: 'TB', homeCity: 'Pottstown', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (MichaelYancich:Person:Player {name: 'Michael Yancich', position: 'LB', homeCity: 'Washington', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (ChristianKuntz:Person:Player {name: 'Christian Kuntz', position: 'WR', homeCity: 'Camp Hill', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (NathanStupar:Person:Player {name: 'Nathan Stupar', position: 'LB', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JesseAlfreno:Person:Player {name: 'Jesse Alfreno', position: 'CB', homeCity: 'Grove City', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (PatZerbe:Person:Player {name: 'Pat Zerbe', position: 'FB', homeCity: 'West Lawn', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (KyleJohnson:Person:Player {name: 'Kyle Johnson', position: 'Saf', homeCity: 'Landenberg', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (CollinWagner:Person:Player {name: 'Collin Wagner', position: 'K', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (JoeSuhey:Person:Player {name: 'Joe Suhey', position: 'RB', homeCity: 'Deerfield', homeState: 'Ill.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (TylerAhrenhold:Person:Player {name: 'Tyler Ahrenhold', position: 'Saf', homeCity: 'Blue Bell', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (AndreDupree:Person:Player {name: 'Andre Dupree', position: 'FB', homeCity: 'Waldorf', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (TomGolarz:Person:Player {name: 'Tom Golarz', position: 'DE', homeCity: 'Bloomington', homeState: 'Ind.', yearsOnRoster: [2009]})
+CREATE (AndrewPitz:Person:Player {name: 'Andrew Pitz', position: 'KS', homeCity: 'Bettendorf', homeState: 'Iowa', yearsOnRoster: [2009]})
+CREATE (JeremyBoone:Person:Player {name: 'Jeremy Boone', position: 'P', homeCity: 'Mechanicsburg', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (MichaelMauti:Person:Player {name: 'Michael Mauti', position: 'LB', homeCity: 'Mandeville', homeState: 'La.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (JoshHull:Person:Player {name: 'Josh Hull', position: 'LB', homeCity: 'Millheim', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (KevionLatham:Person:Player {name: 'Kevion Latham', position: 'DE', homeCity: 'Greensboro', homeState: 'N.C.', yearsOnRoster: [2009, 2010]})
+CREATE (SeanLee:Person:Player {name: 'Sean Lee', position: 'LB', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (StephenJoseph:Person:Player {name: 'Stephen Joseph', position: 'Saf', homeCity: 'Factoryville', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (JordanHill:Person:Player {name: 'Jordan Hill', position: 'DT', homeCity: 'Steelton', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (KenPollock:Person:Player {name: 'Ken Pollock', position: 'LB', homeCity: 'Dallas', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (ChrisColasanti:Person:Player {name: 'Chris Colasanti', position: 'LB', homeCity: 'Leonard', homeState: 'Mich.', yearsOnRoster: [2009, 2010]})
+CREATE (RyanBreen:Person:Player {name: 'Ryan Breen', position: 'P', homeCity: 'Clarkston', homeState: 'Mich.', yearsOnRoster: [2009]})
+CREATE (DeOntaePannell:Person:Player {name: 'DeOntae Pannell', position: 'T', homeCity: 'Southfield', homeState: 'Mich.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JonathanStewart:Person:Player {name: 'Jonathan Stewart', position: 'DE', homeCity: 'North Huntingdon', homeState: 'Pa', yearsOnRoster: [2009, 2010]})
+CREATE (BrianIrvin:Person:Player {name: 'Brian Irvin', position: 'LB', homeCity: 'Orrtanna', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (JonRohrbaugh:Person:Player {name: 'Jon Rohrbaugh', position: 'KS', homeCity: 'Ellicott City', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JamesFleet:Person:Player {name: 'James Fleet', position: 'LB', homeCity: 'Williamsport', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MattStankiewitch:Person:Player {name: 'Matt Stankiewitch', position: 'G', homeCity: 'Orwigsburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (TomMcEowen:Person:Player {name: 'Tom McEowen', position: 'DT', homeCity: 'Feasterville', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (MichaelFuhrman:Person:Player {name: 'Michael Fuhrman', position: 'KS', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (EricLatimore:Person:Player {name: 'Eric Latimore', position: 'DE', homeCity: 'Middletown', homeState: 'Del.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (EmeryEtter:Person:Player {name: 'Emery Etter', position: 'KS', homeCity: 'Chambersburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (AdamGress:Person:Player {name: 'Adam Gress', position: 'OL', homeCity: 'West Mifflin', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (PeteMassaro:Person:Player {name: 'Pete Massaro', position: 'DE', homeCity: 'Newtown Square', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (TyHowle:Person:Player {name: 'Ty Howle', position: 'C', homeCity: 'Wake Forest', homeState: 'N.C.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (StefenWisniewski:Person:Player {name: 'Stefen Wisniewski', position: 'C', homeCity: 'Bridgeville', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (FrankFigueroa:Person:Player {name: 'Frank Figueroa', position: 'OL', homeCity: 'Alexandria', homeState: 'Va.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MarkArcidiacono:Person:Player {name: 'Mark Arcidiacono', position: 'OL', homeCity: 'Holland', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (JohnUrschel:Person:Player {name: 'John Urschel', position: 'OL', homeCity: 'Williamsville', homeState: 'N.Y.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (QuinnBarham:Person:Player {name: 'Quinn Barham', position: 'G', homeCity: 'Durham', homeState: 'N.C.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (DougKlopacz:Person:Player {name: 'Doug Klopacz', position: 'C', homeCity: 'Hasbrouck Heights', homeState: 'N.J.', yearsOnRoster: [2009, 2010]})
+CREATE (AnthonyTortorelli:Person:Player {name: 'Anthony Tortorelli', position: 'OL', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (DevonStill:Person:Player {name: 'Devon Still', position: 'DT', homeCity: 'Wilmington', homeState: 'Del.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (NerrawMcCormack:Person:Player {name: 'Nerraw McCormack', position: 'T', homeCity: 'Bronx', homeState: 'N.Y.', yearsOnRoster: [2009]})
+CREATE (DennisLandolt:Person:Player {name: 'Dennis Landolt', position: 'T', homeCity: 'Burlington', homeState: 'N.J.', yearsOnRoster: [2009]})
+CREATE (JohnnieTroutman:Person:Player {name: 'Johnnie Troutman', position: 'G', homeCity: 'Brown Mills', homeState: 'N.J.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (EricShrive:Person:Player {name: 'Eric Shrive', position: 'OL', homeCity: 'West Scranton', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (NateCadogan:Person:Player {name: 'Nate Cadogan', position: 'OL', homeCity: 'Portsmouth', homeState: 'Ohio', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (LouEliades:Person:Player {name: 'Lou Eliades', position: 'T', homeCity: 'Ocean', homeState: 'N.J.', yearsOnRoster: [2009, 2010]})
+CREATE (MikeFarrell:Person:Player {name: 'Mike Farrell', position: 'T', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (AkoPoti:Person:Player {name: 'Ako Poti', position: 'T', homeCity: 'Daly City', homeState: 'Calif.', yearsOnRoster: [2009]})
+CREATE (AndrewSzczerba:Person:Player {name: 'Andrew Szczerba', position: 'TE', homeCity: 'Wilmington', homeState: 'Del.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (JackCrawford:Person:Player {name: 'Jack Crawford', position: 'DE', homeCity: 'Longport', homeState: 'N.J.', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (RyanScherer:Person:Player {name: 'Ryan Scherer', position: 'WR', homeCity: 'Avon Lake', homeState: 'Ohio', yearsOnRoster: [2009, 2010, 2011]})
+CREATE (MickeyShuler:Person:Player {name: 'Mickey Shuler', position: 'TE', homeCity: 'Enola', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (BrettBrackett:Person:Player {name: 'Brett Brackett', position: 'WR', homeCity: 'Lawrenceville', homeState: 'N.J.', yearsOnRoster: [2009, 2010]})
+CREATE (PatrickMauti:Person:Player {name: 'Patrick Mauti', position: 'WR', homeCity: 'Mandeville', homeState: 'La.', yearsOnRoster: [2009]})
+CREATE (OllieOgbu:Person:Player {name: 'Ollie Ogbu', position: 'DT', homeCity: 'Staten Island', homeState: 'N.Y.', yearsOnRoster: [2009, 2010]})
+CREATE (GarryGilliam:Person:Player {name: 'Garry Gilliam', position: 'DL', homeCity: 'Carlisle', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012, 2013]})
+CREATE (SeanLuchnick:Person:Player {name: 'Sean Luchnick', position: 'WR', homeCity: 'Helotes', homeState: 'Texas', yearsOnRoster: [2009]})
+CREATE (SeanStanley:Person:Player {name: 'Sean Stanley', position: 'DE', homeCity: 'Rockville', homeState: 'Md.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (JaredOdrick:Person:Player {name: 'Jared Odrick', position: 'DT', homeCity: 'Lebanon', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (ChimaezeOkoli:Person:Player {name: 'Chimaeze Okoli', position: 'DT', homeCity: 'Virginia Beach', homeState: 'Va.', yearsOnRoster: [2009, 2010]})
+CREATE (JamesTerry:Person:Player {name: 'James Terry', position: 'DT', homeCity: 'New Castle', homeState: 'Del.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MikelBerry:Person:Player {name: 'Mikel Berry', position: 'DL', homeCity: 'Upper Arlington', homeState: 'Ohio', yearsOnRoster: [2009]})
+CREATE (JRRefice:Person:Player {name: 'J.R. Refice', position: 'DL', homeCity: 'Jessup', homeState: 'Pa.', yearsOnRoster: [2009, 2010, 2011, 2012]})
+CREATE (MattKenney:Person:Player {name: 'Matt Kenney', position: 'DE', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2009]})
+CREATE (BrandonWare:Person:Player {name: 'Brandon Ware', position: 'DT', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2009, 2010]})
+CREATE (RobBolden:Person:Player {name: 'Rob Bolden', position: 'QB', homeCity: 'Orchard Lake', homeState: 'Mich.', yearsOnRoster: [2010, 2011]})
+CREATE (PaulJones:Person:Player {name: 'Paul Jones', position: 'QB', homeCity: 'McKees Rocks', homeState: 'Pa.', yearsOnRoster: [2010, 2011]})
+CREATE (KhairiFortt:Person:Player {name: 'Khairi Fortt', position: 'LB', homeCity: 'Stamford', homeState: 'Conn.', yearsOnRoster: [2010, 2011]})
+CREATE (AlexKenney:Person:Player {name: 'Alex Kenney', position: 'WR', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013]})
+CREATE (JonathanDuckett:Person:Player {name: 'Jonathan Duckett', position: 'Saf', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2010, 2011]})
+CREATE (SilasRedd:Person:Player {name: 'Silas Redd', position: 'TB', homeCity: 'Norwalk', homeState: 'Conn.', yearsOnRoster: [2010, 2011]})
+CREATE (RussellNye:Person:Player {name: 'Russell Nye', position: 'PK', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2010]})
+CREATE (RyanKeiser:Person:Player {name: 'Ryan Keiser', position: 'DB', homeCity: 'Selinsgrove', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (DakotaRoyer:Person:Player {name: 'Dakota Royer', position: 'LB', homeCity: 'Lancaster', homeState: 'Pa.', yearsOnRoster: [2010, 2011]})
+CREATE (JesseValle:Person:Player {name: 'Jesse Valle', position: 'CB', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (GlennCarson:Person:Player {name: 'Glenn Carson', position: 'LB', homeCity: 'Manahawkin', homeState: 'N.J.', yearsOnRoster: [2010, 2011, 2012, 2013]})
+CREATE (ZachZwinak:Person:Player {name: 'Zach Zwinak', position: 'FB', homeCity: 'Frederick', homeState: 'Md.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (MikeHull:Person:Player {name: 'Mike Hull', position: 'LB', homeCity: 'Canonsburg', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (AlexButterworth:Person:Player {name: 'Alex Butterworth', position: 'P/K', homeCity: 'Indianapolis', homeState: 'Ind.', yearsOnRoster: [2010, 2011, 2012, 2013]})
+CREATE (AJFirestone:Person:Player {name: 'A.J. Firestone', position: 'P', homeCity: 'Mercersburg', homeState: 'Pa.', yearsOnRoster: [2010]})
+CREATE (PatrickChristie:Person:Player {name: 'Patrick Christie', position: 'OL', homeCity: 'Carlisle', homeState: 'Pa.', yearsOnRoster: [2010, 2011]})
+CREATE (ChimaOkoli:Person:Player {name: 'Chima Okoli', position: 'T', homeCity: 'Virginia Beach', homeState: 'Va.', yearsOnRoster: [2010, 2011]})
+CREATE (TomRicketts:Person:Player {name: 'Tom Ricketts', position: 'OL', homeCity: 'Wexford', homeState: 'Pa.', yearsOnRoster: [2010]})
+CREATE (AlexMateas:Person:Player {name: 'Alex Mateas', position: 'OL', homeCity: 'Ottawa', homeState: 'Canada', yearsOnRoster: [2010]})
+CREATE (MilesDieffenbach:Person:Player {name: 'Miles Dieffenbach', position: 'C', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (KhamroneKolb:Person:Player {name: 'Khamrone Kolb', position: 'OL', homeCity: 'Burke', homeState: 'Va.', yearsOnRoster: [2010, 2011]})
+CREATE (EvanHailes:Person:Player {name: 'Evan Hailes', position: 'DT', homeCity: 'Chesapeake', homeState: 'Va.', yearsOnRoster: [2010, 2011]})
+CREATE (LukeGraham:Person:Player {name: 'Luke Graham', position: 'OL', homeCity: 'Harrison City', homeState: 'Pa.', yearsOnRoster: [2010, 2011]})
+CREATE (KevinHaplea:Person:Player {name: 'Kevin Haplea', position: 'TE', homeCity: 'Annandale', homeState: 'N.J.', yearsOnRoster: [2010, 2011]})
+CREATE (BradBars:Person:Player {name: 'Brad Bars', position: 'DE', homeCity: 'Nashville', homeState: 'Tenn.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (KyleBaublitz:Person:Player {name: 'Kyle Baublitz', position: 'DE', homeCity: 'York', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012, 2013]})
+CREATE (CJOlaniyan:Person:Player {name: 'C.J. Olaniyan', position: 'DE', homeCity: 'Warren', homeState: 'Mich.', yearsOnRoster: [2010, 2011, 2012, 2013, 2014]})
+CREATE (DaQuanJones:Person:Player {name: 'DaQuan Jones', position: 'DT', homeCity: 'Johnson City', homeState: 'N.Y.', yearsOnRoster: [2010, 2011, 2012, 2013]})
+CREATE (CodyCastor:Person:Player {name: 'Cody Castor', position: 'DE', homeCity: 'Uniontown', homeState: 'Pa.', yearsOnRoster: [2010, 2011, 2012]})
+CREATE (AdrianAmos:Person:Player {name: 'Adrian Amos', position: 'CB', homeCity: 'Baltimore', homeState: 'Md.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (BillBelton:Person:Player {name: 'Bill Belton', position: 'WR', homeCity: 'Sicklerville', homeState: 'N.J.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (AllenRobinson:Person:Player {name: 'Allen Robinson', position: 'WR', homeCity: 'Southfield', homeState: 'Mich.', yearsOnRoster: [2011, 2012, 2013]})
+CREATE (JohnCabot:Person:Player {name: 'John Cabot', position: 'QB', homeCity: 'San Diego', homeState: 'Calif.', yearsOnRoster: [2011]})
+CREATE (TimBuckley:Person:Player {name: 'Tim Buckley', position: 'Saf.', homeCity: 'Raleigh', homeState: 'N.C.', yearsOnRoster: [2011]})
+CREATE (PatrickFlanagan:Person:Player {name: 'Patrick Flanagan', position: 'WR', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2011, 2012]})
+CREATE (DeionBarnes:Person:Player {name: 'Deion Barnes', position: 'DE', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (MattMarcincin:Person:Player {name: 'Matt Marcincin', position: 'PK', homeCity: 'Malvern', homeState: 'Pa.', yearsOnRoster: [2011]})
+CREATE (TJRhattigan:Person:Player {name: 'T.J. Rhattigan', position: 'LB', homeCity: 'Naperville', homeState: 'Ill.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (BrianFriend:Person:Player {name: 'Brian Friend', position: 'WR', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2011]})
+CREATE (KyleLucas:Person:Player {name: 'Kyle Lucas', position: 'LB', homeCity: 'Bellefonte', homeState: 'Pa.', yearsOnRoster: [2011]})
+CREATE (JeffCully:Person:Player {name: 'Jeff Cully', position: 'CB', homeCity: 'Allison Park', homeState: 'Pa.', yearsOnRoster: [2011]})
+CREATE (JohnHornyak:Person:Player {name: 'John Hornyak', position: 'DB', homeCity: 'Round Hill', homeState: 'Va.', yearsOnRoster: [2011]})
+CREATE (DeronThompson:Person:Player {name: 'Deron Thompson', position: 'RB', homeCity: 'Lititz', homeState: 'Pa.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (BenKline:Person:Player {name: 'Ben Kline', position: 'LB', homeCity: 'Seven Valleys', homeState: 'Pa.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (BryceWilson:Person:Player {name: 'Bryce Wilson', position: 'FB', homeCity: 'Camp Hill', homeState: 'Pa.', yearsOnRoster: [2011, 2012]})
+CREATE (PJByers:Person:Player {name: 'P.J. Byers', position: 'FB', homeCity: 'Harrison City', homeState: 'Pa.', yearsOnRoster: [2011, 2012]})
+CREATE (JordanKerner:Person:Player {name: 'Jordan Kerner', position: 'DE', homeCity: 'Fairview', homeState: 'Pa.', yearsOnRoster: [2011, 2012]})
+CREATE (ShanePhillips:Person:Player {name: 'Shane Phillips', position: 'WR', homeCity: 'St. Albans', homeState: 'N.Y.', yearsOnRoster: [2011]})
+CREATE (DrewBoyce:Person:Player {name: 'Drew Boyce', position: 'LB', homeCity: 'Olathe', homeState: 'Kan.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (AngeloMangiro:Person:Player {name: 'Angelo Mangiro', position: 'OL', homeCity: 'Roxbury', homeState: 'N.J.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (RyanNowicki:Person:Player {name: 'Ryan Nowicki', position: 'OL', homeCity: 'Glendale', homeState: 'Ariz.', yearsOnRoster: [2011]})
+CREATE (DonovanSmith:Person:Player {name: 'Donovan Smith', position: 'T', homeCity: 'Owings Mills', homeState: 'Md.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (KevinBlanchard:Person:Player {name: 'Kevin Blanchard', position: 'OL', homeCity: 'Katy', homeState: 'Texas', yearsOnRoster: [2011, 2012, 2013]})
+CREATE (MattZanellato:Person:Player {name: 'Matt Zanellato', position: 'WR', homeCity: 'Burke', homeState: 'Va.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (MattLehman:Person:Player {name: 'Matt Lehman', position: 'TE', homeCity: 'Newport', homeState: 'Pa.', yearsOnRoster: [2011, 2012, 2013]})
+CREATE (KyleCarter:Person:Player {name: 'Kyle Carter', position: 'TE', homeCity: 'Bear', homeState: 'Del.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (AnthonyAlosi:Person:Player {name: 'Anthony Alosi', position: 'DT', homeCity: 'Marlton', homeState: 'N.J.', yearsOnRoster: [2011, 2012, 2013]})
+CREATE (ShawnOakman:Person:Player {name: 'Shawn Oakman', position: 'DE', homeCity: 'Lansdowne', homeState: 'Pa.', yearsOnRoster: [2011]})
+CREATE (CarlNassib:Person:Player {name: 'Carl Nassib', position: 'DE', homeCity: 'West Chester', homeState: 'Pa.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (SamFicken:Person:Player {name: 'Sam Ficken', position: 'PK', homeCity: 'Valparaiso', homeState: 'Ind.', yearsOnRoster: [2011, 2012, 2013, 2014]})
+CREATE (AnthonyZettel:Person:Player {name: 'Anthony Zettel', position: 'DT', homeCity: 'West Branch', homeState: 'Mich.', yearsOnRoster: [2011, 2012, 2013, 2014, 2015]})
+CREATE (JakeKiley:Person:Player {name: 'Jake Kiley', position: 'CB', homeCity: 'Plymouth', homeState: 'N.H.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (DaQuanDavis:Person:Player {name: 'DaQuan Davis', position: 'CB', homeCity: 'Baltimore', homeState: 'Md.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (NyeemWartman:Person:Player {name: 'Nyeem Wartman', position: 'LB', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (EugeneLewis:Person:Player {name: 'Eugene Lewis', position: 'WR', homeCity: 'Wilkes-Barre', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (GaryWooten:Person:Player {name: 'Gary Wooten', position: 'LB', homeCity: 'Miami', homeState: 'Fla.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (StevenBench:Person:Player {name: 'Steven Bench', position: 'QB', homeCity: 'Bainbridge', homeState: 'Ga.', yearsOnRoster: [2012]})
+CREATE (TylerLucas:Person:Player {name: 'Tyler Lucas', position: 'WR', homeCity: 'Bellefonte', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (JordanLucas:Person:Player {name: 'Jordan Lucas', position: 'Saf', homeCity: 'New Rochelle', homeState: 'N.Y.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (DevinPryor:Person:Player {name: 'Devin Pryor', position: 'CB', homeCity: 'San Bernardino', homeState: 'Calif.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (JesseJames:Person:Player {name: 'Jesse James', position: 'TE', homeCity: 'Glassport', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (MalikGolden:Person:Player {name: 'Malik Golden', position: 'WR', homeCity: 'Hartford', homeState: 'Conn.', yearsOnRoster: [2012, 2013, 2014, 2015, 2016]})
+CREATE (BryantHarper:Person:Player {name: 'Bryant Harper', position: 'Saf', homeCity: 'McKeesport', homeState: 'Pa.', yearsOnRoster: [2012, 2015]})
+CREATE (TrevorWilliams:Person:Player {name: 'Trevor Williams', position: 'WR', homeCity: 'Baltimore', homeState: 'Md.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (AkeelLynch:Person:Player {name: 'Akeel Lynch', position: 'RB', homeCity: 'Toronto', homeState: 'Ontario', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (ReynoldsParthemore:Person:Player {name: 'Reynolds Parthemore', position: 'P', homeCity: 'New Cumberland', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (CharlesIdemudia:Person:Player {name: 'Charles Idemudia', position: 'LB', homeCity: 'Detroit', homeState: 'Mich.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (JoeBaker:Person:Player {name: 'Joe Baker', position: 'P', homeCity: 'West Chester', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (JackHaffner:Person:Player {name: 'Jack Haffner', position: 'FB', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (ColinBryan:Person:Player {name: 'Colin Bryan', position: 'RB', homeCity: 'Windber', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (DominicSalomone:Person:Player {name: 'Dominic Salomone', position: 'FB', homeCity: 'Dillsburg', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (AdamCole:Person:Player {name: 'Adam Cole', position: 'LB', homeCity: 'Belle Vernon', homeState: 'Pa.', yearsOnRoster: [2012, 2013]})
+CREATE (KevinDiSanto:Person:Player {name: 'Kevin DiSanto', position: 'PK', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (AnthonyStanko:Person:Player {name: 'Anthony Stanko', position: 'G', homeCity: 'Warren', homeState: 'Ohio', yearsOnRoster: [2012]})
+CREATE (BrentSmith:Person:Player {name: 'Brent Smith', position: 'DE', homeCity: 'Hughesville', homeState: 'Pa.', yearsOnRoster: [2012]})
+CREATE (DerekDowrey:Person:Player {name: 'Derek Dowrey', position: 'DT', homeCity: 'Winchester', homeState: 'Va.', yearsOnRoster: [2012, 2013, 2014, 2015, 2016]})
+CREATE (WendyLaurent:Person:Player {name: 'Wendy Laurent', position: 'C', homeCity: 'Hamilton', homeState: 'N.J.', yearsOnRoster: [2012, 2013, 2014, 2015, 2016]})
+CREATE (JoeMarvin:Person:Player {name: 'Joe Marvin', position: 'KS', homeCity: 'Potomac', homeState: 'Md.', yearsOnRoster: [2012]})
+CREATE (BryanDavie:Person:Player {name: 'Bryan Davie', position: 'G', homeCity: 'Bowie', homeState: 'Md.', yearsOnRoster: [2012, 2013]})
+CREATE (BrianGaia:Person:Player {name: 'Brian Gaia', position: 'DT', homeCity: 'Pasadena', homeState: 'Md.', yearsOnRoster: [2012, 2013, 2014, 2015, 2016]})
+CREATE (DeshawnBaker:Person:Player {name: 'Deshawn Baker', position: 'WR', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (BrentWilkerson:Person:Player {name: 'Brent Wilkerson', position: 'TE', homeCity: 'Clinton', homeState: 'Md.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (TyroneSmith:Person:Player {name: 'Tyrone Smith', position: 'DT', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014]})
+CREATE (JonathanWarner:Person:Player {name: 'Jonathan Warner', position: 'WR', homeCity: 'Camas', homeState: 'Wash.', yearsOnRoster: [2012, 2013]})
+CREATE (AlbertHall:Person:Player {name: 'Albert Hall', position: 'DE', homeCity: 'Warwick', homeState: 'N.Y.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (EvanSchwan:Person:Player {name: 'Evan Schwan', position: 'DE', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2012, 2013, 2014, 2015, 2016]})
+CREATE (AustinJohnson:Person:Player {name: 'Austin Johnson', position: 'DT', homeCity: 'Galloway', homeState: 'N.J.', yearsOnRoster: [2012, 2013, 2014, 2015]})
+CREATE (DaeSeanHamilton:Person:Player {name: 'DaeSean Hamilton', position: 'WR', homeCity: 'Fredericksburg', homeState: 'Va.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (AustinWhipple:Person:Player {name: 'Austin Whipple', position: 'QB', homeCity: 'Wexford', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (TylerFerguson:Person:Player {name: 'Tyler Ferguson', position: 'QB', homeCity: 'Bakersfield', homeState: 'Calif.', yearsOnRoster: [2013]})
+CREATE (ChrisGeiss:Person:Player {name: 'Chris Geiss', position: 'WR', homeCity: 'Malvern', homeState: 'Pa.', yearsOnRoster: [2013, 2014]})
+CREATE (GenoLewis:Person:Player {name: 'Geno Lewis', position: 'WR', homeCity: 'Wilkes-Barre', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (JackSeymour:Person:Player {name: 'Jack Seymour', position: 'QB', homeCity: 'Indianapolis', homeState: 'Ind.', yearsOnRoster: [2013]})
+CREATE (JordanSmith:Person:Player {name: 'Jordan Smith', position: 'CB', homeCity: 'Washington', homeState: 'D.C.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (JesseMerise:Person:Player {name: 'Jesse Merise', position: 'CB', homeCity: 'Hillside', homeState: 'N.J.', yearsOnRoster: [2013, 2014]})
+CREATE (KaseyGaines:Person:Player {name: 'Kasey Gaines', position: 'DB', homeCity: 'Lawrenceville', homeState: 'Ga.', yearsOnRoster: [2013, 2014]})
+CREATE (ChristianHackenberg:Person:Player {name: 'Christian Hackenberg', position: 'QB', homeCity: 'Palmyra', homeState: 'Va.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (DJCrook:Person:Player {name: 'D.J. Crook', position: 'QB', homeCity: 'West Barnstable', homeState: 'Mass.', yearsOnRoster: [2013, 2014]})
+CREATE (DadPoquie:Person:Player {name: 'Dad Poquie', position: 'DB', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2013, 2014]})
+CREATE (RichyAnderson:Person:Player {name: 'Richy Anderson', position: 'WR', homeCity: 'Frederick', homeState: 'Md.', yearsOnRoster: [2013]})
+CREATE (BrianTomasetti:Person:Player {name: 'Brian Tomasetti', position: 'RB', homeCity: 'Old Forge', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (AnthonySmith:Person:Player {name: 'Anthony Smith', position: 'CB', homeCity: 'Dover', homeState: 'N.J.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (VonWalker:Person:Player {name: 'Von Walker', position: 'RB', homeCity: 'Mill Hall', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (BrandonBell:Person:Player {name: 'Brandon Bell', position: 'LB', homeCity: 'Mays Landing', homeState: 'N.J.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (AdamGeiger:Person:Player {name: 'Adam Geiger', position: 'RB', homeCity: 'Dillsburg', homeState: 'Pa.', yearsOnRoster: [2013, 2014]})
+CREATE (ColinHarrop:Person:Player {name: 'Colin Harrop', position: 'Saf', homeCity: 'Sinking Spring', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (BrandonJohnson:Person:Player {name: 'Brandon Johnson', position: 'RB', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (KyleSearfoss:Person:Player {name: 'Kyle Searfoss', position: 'LB', homeCity: 'Mechanicsburg', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (ChipChiappialle:Person:Player {name: 'Chip Chiappialle', position: 'RB', homeCity: 'Beaver Falls', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (JordanDudas:Person:Player {name: 'Jordan Dudas', position: 'DB', homeCity: 'Lake City', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (MatthewBaney:Person:Player {name: 'Matthew Baney', position: 'LB', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (HunterCrafford:Person:Player {name: 'Hunter Crafford', position: 'LB', homeCity: 'Greenville', homeState: 'N.C.', yearsOnRoster: [2013, 2014]})
+CREATE (ChrisGulla:Person:Player {name: 'Chris Gulla', position: 'PK/P', homeCity: 'Toms River', homeState: 'N.J.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (ParkerCothren:Person:Player {name: 'Parker Cothren', position: 'DT', homeCity: 'Huntsville', homeState: 'Ala.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (CarterHenderson:Person:Player {name: 'Carter Henderson', position: 'LB', homeCity: 'Murrysville', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (TylerYazujian:Person:Player {name: 'Tyler Yazujian', position: 'KS', homeCity: 'Royersford', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (BrandonSmith:Person:Player {name: 'Brandon Smith', position: 'FB', homeCity: 'Winfield', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017, 2019, 2020]})
+CREATE (RyanAmmerman:Person:Player {name: 'Ryan Ammerman', position: 'LB', homeCity: 'West Chester', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (MikeWiand:Person:Player {name: 'Mike Wiand', position: 'LB', homeCity: 'Mifflinburg', homeState: 'Pa.', yearsOnRoster: [2013, 2014]})
+CREATE (CurtisCothran:Person:Player {name: 'Curtis Cothran', position: 'DE', homeCity: 'Newtown', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (SeanCorcoran:Person:Player {name: 'Sean Corcoran', position: 'KS', homeCity: 'Bourbonnais', homeState: 'Ill.', yearsOnRoster: [2013, 2014]})
+CREATE (TannerHartman:Person:Player {name: 'Tanner Hartman', position: 'G', homeCity: 'Christianburg', homeState: 'Va.', yearsOnRoster: [2013]})
+CREATE (AndrewNelson:Person:Player {name: 'Andrew Nelson', position: 'T', homeCity: 'Hershey', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (ZachLadonis:Person:Player {name: 'Zach Ladonis', position: 'KS', homeCity: 'Nescopeck', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (AndrewTerlingo:Person:Player {name: 'Andrew Terlingo', position: 'OL', homeCity: 'Coopersburg', homeState: 'Pa.', yearsOnRoster: [2013, 2014]})
+CREATE (BrendanMahon:Person:Player {name: 'Brendan Mahon', position: 'G', homeCity: 'Randolph', homeState: 'N.J.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (AustinFiedler:Person:Player {name: 'Austin Fiedler', position: 'OL', homeCity: 'Watsontown', homeState: 'Pa.', yearsOnRoster: [2013]})
+CREATE (EvanGalimberti:Person:Player {name: 'Evan Galimberti', position: 'OL', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (TomDevenney:Person:Player {name: 'Tom Devenney', position: 'OL', homeCity: 'Lititz', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (AdamBreneman:Person:Player {name: 'Adam Breneman', position: 'TE', homeCity: 'Mechanicsburg', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015]})
+CREATE (GreggGarrity:Person:Player {name: 'Gregg Garrity', position: 'WR', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (LukeVadas:Person:Player {name: 'Luke Vadas', position: 'WR', homeCity: 'Hunting Valley', homeState: 'Ohio', yearsOnRoster: [2013, 2014]})
+CREATE (BrandonFelder:Person:Player {name: 'Brandon Felder', position: 'WR', homeCity: 'Fort Washington', homeState: 'Md.', yearsOnRoster: [2013]})
+CREATE (TomPancoast:Person:Player {name: 'Tom Pancoast', position: 'TE', homeCity: 'West Chester', homeState: 'Pa.', yearsOnRoster: [2013, 2014, 2015, 2016, 2017]})
+CREATE (GarrettSickels:Person:Player {name: 'Garrett Sickels', position: 'DE', homeCity: 'Red Bank', homeState: 'N.J.', yearsOnRoster: [2013, 2014, 2015, 2016]})
+CREATE (ChristianCampbell:Person:Player {name: 'Christian Campbell', position: 'CB', homeCity: 'Phenix City', homeState: 'Ala.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (MarcusAllen:Person:Player {name: 'Marcus Allen', position: 'Saf', homeCity: 'Upper Marlboro', homeState: 'Md.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (DeAndreThompkins:Person:Player {name: 'DeAndre Thompkins', position: 'WR', homeCity: 'Hubert', homeState: 'N.C.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (KoaFarmer:Person:Player {name: 'Koa Farmer', position: 'LB', homeCity: 'Lake View Terrace', homeState: 'Calif.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (TraceMcSorley:Person:Player {name: 'Trace McSorley', position: 'QB', homeCity: 'Ashburn', homeState: 'Va.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (ChrisGodwin:Person:Player {name: 'Chris Godwin', position: 'WR', homeCity: 'Middletown', homeState: 'Del.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (SaeedBlacknall:Person:Player {name: 'Saeed Blacknall', position: 'WR', homeCity: 'Manalapan', homeState: 'N.J.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (GrantHaley:Person:Player {name: 'Grant Haley', position: 'CB', homeCity: 'Atlanta', homeState: 'Ga.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (BillyFessler:Person:Player {name: 'Billy Fessler', position: 'QB', homeCity: 'Erie', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (DaquanWorley:Person:Player {name: 'Daquan Worley', position: 'DB', homeCity: 'Coatesville', homeState: 'Pa.', yearsOnRoster: [2014, 2015]})
+CREATE (JohnathanThomas:Person:Player {name: 'Johnathan Thomas', position: 'RB', homeCity: 'Peabody', homeState: 'Mass.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (AmaniOruwariye:Person:Player {name: 'Amani Oruwariye', position: 'CB', homeCity: 'Tampa', homeState: 'Fla.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (MarkAllen:Person:Player {name: 'Mark Allen', position: 'RB', homeCity: 'Hyattsville', homeState: 'Md.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (NickScott:Person:Player {name: 'Nick Scott', position: 'RB', homeCity: 'Fairfax', homeState: 'Va.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (JavonTurner:Person:Player {name: 'Javon Turner', position: 'WR', homeCity: 'Downers Grove', homeState: 'Ill.', yearsOnRoster: [2014]})
+CREATE (TroyApke:Person:Player {name: 'Troy Apke', position: 'Saf', homeCity: 'Mt. Lebanon', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (SethFord:Person:Player {name: 'Seth Ford', position: 'Saf.', homeCity: 'Clearfield', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (JoeBerg:Person:Player {name: 'Joe Berg', position: 'Saf.', homeCity: 'Grayslake', homeState: 'Ill.', yearsOnRoster: [2014, 2015]})
+CREATE (ColeChiappialle:Person:Player {name: 'Cole Chiappialle', position: 'RB', homeCity: 'Beaver Falls', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (EvanSteinfeld:Person:Player {name: 'Evan Steinfeld', position: 'LB', homeCity: 'Short Hills', homeState: 'N.J.', yearsOnRoster: [2014]})
+CREATE (KyleAlston:Person:Player {name: 'Kyle Alston', position: 'CB', homeCity: 'Robbinsville', homeState: 'N.J.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (DesiDavis:Person:Player {name: 'Desi Davis', position: 'CB', homeCity: 'Ardmore', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (NeilBodley:Person:Player {name: 'Neil Bodley', position: 'RB', homeCity: 'Mifflintown', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (JasonCabinda:Person:Player {name: 'Jason Cabinda', position: 'LB', homeCity: 'Flemington', homeState: 'N.J.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (LouDibileo:Person:Player {name: 'Lou Dibileo', position: 'TE', homeCity: 'Scranton', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (KyleVasey:Person:Player {name: 'Kyle Vasey', position: 'KS', homeCity: 'Lackawaxen', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (TroyReeder:Person:Player {name: 'Troy Reeder', position: 'LB', homeCity: 'Wilmington', homeState: 'Del.', yearsOnRoster: [2014, 2015]})
+CREATE (KylerDiehl:Person:Player {name: 'Kyler Diehl', position: 'WR', homeCity: 'Loysburg', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (WillEikenberry:Person:Player {name: 'Will Eikenberry', position: 'LB', homeCity: 'Andover', homeState: 'Mass.', yearsOnRoster: [2014, 2015]})
+CREATE (ChanceSorrell:Person:Player {name: 'Chance Sorrell', position: 'T', homeCity: 'Middletown', homeState: 'Ohio', yearsOnRoster: [2014, 2015]})
+CREATE (NoahBeh:Person:Player {name: 'Noah Beh', position: 'T', homeCity: 'Moscow', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (SteveMyers:Person:Player {name: 'Steve Myers', position: 'OL', homeCity: 'Pottstown', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (BrendanBrosnan:Person:Player {name: 'Brendan Brosnan', position: 'T', homeCity: 'Park Ridge', homeState: 'Ill.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (ChaszWright:Person:Player {name: 'Chasz Wright', position: 'T', homeCity: 'Woodbridge', homeState: 'Va.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (CharlieShuman:Person:Player {name: 'Charlie Shuman', position: 'T', homeCity: 'Pittsford', homeState: 'N.Y.', yearsOnRoster: [2014, 2015, 2016, 2017, 2018]})
+CREATE (MikeGesicki:Person:Player {name: 'Mike Gesicki', position: 'TE', homeCity: 'Manahawkin', homeState: 'N.J.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (TarowBarney:Person:Player {name: 'Tarow Barney', position: 'DT', homeCity: 'Bainbridge', homeState: 'Ga.', yearsOnRoster: [2014, 2015]})
+CREATE (NickBouhermi:Person:Player {name: 'Nick Bouhermi', position: 'PK', homeCity: 'Phillipsburg', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (JoeHolmes:Person:Player {name: 'Joe Holmes', position: 'DT', homeCity: 'Clarks Summit', homeState: 'Pa.', yearsOnRoster: [2014, 2015]})
+CREATE (DanielPasquariello:Person:Player {name: 'Daniel Pasquariello', position: 'P', homeCity: 'Melbourne', homeState: 'Victoria', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (RobbyLiebel:Person:Player {name: 'Robby Liebel', position: 'P', homeCity: 'St. Petersburg', homeState: 'Fla.', yearsOnRoster: [2014, 2015]})
+CREATE (AntoineWhite:Person:Player {name: 'Antoine White', position: 'DT', homeCity: 'Millville', homeState: 'N.J.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (TorrenceBrown:Person:Player {name: 'Torrence Brown', position: 'DE', homeCity: 'Tuscaloosa', homeState: 'Ala.', yearsOnRoster: [2014, 2015, 2016, 2017]})
+CREATE (LukeHayek:Person:Player {name: 'Luke Hayek', position: 'PK', homeCity: 'Shelby', homeState: 'N.C.', yearsOnRoster: [2014]})
+CREATE (TroyStivason:Person:Player {name: 'Troy Stivason', position: 'PK', homeCity: 'Athens', homeState: 'Pa.', yearsOnRoster: [2014]})
+CREATE (JoeyJulius:Person:Player {name: 'Joey Julius', position: 'PK', homeCity: 'Hummelstown', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (TommyStevens:Person:Player {name: 'Tommy Stevens', position: 'QB', homeCity: 'Indianapolis', homeState: 'Ind.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (NyeemWartmanWhite:Person:Player {name: 'Nyeem Wartman-White', position: 'LB', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2015, 2016]})
+CREATE (AndreRobinson:Person:Player {name: 'Andre Robinson', position: 'RB', homeCity: 'Mechanicsburg', homeState: 'Pa.', yearsOnRoster: [2015, 2016]})
+CREATE (GaryWootenJr:Person:Player {name: 'Gary Wooten Jr.', position: 'LB', homeCity: 'Miami', homeState: 'Fla.', yearsOnRoster: [2015]})
+CREATE (BrandonPolk:Person:Player {name: 'Brandon Polk', position: 'WR', homeCity: 'Ashburn', homeState: 'Va.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (JarvisMiller:Person:Player {name: 'Jarvis Miller', position: 'S', homeCity: 'Suffield', homeState: 'Conn.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (JohnPetrishen:Person:Player {name: 'John Petrishen', position: 'S', homeCity: 'Lower Burrell', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (JacksonErdmann:Person:Player {name: 'Jackson Erdmann', position: 'QB', homeCity: 'Rosemount', homeState: 'Minn.', yearsOnRoster: [2015]})
+CREATE (GarrettTaylor:Person:Player {name: 'Garrett Taylor', position: 'CB', homeCity: 'Richmond', homeState: 'Va.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (JonathanHolland:Person:Player {name: 'Jonathan Holland', position: 'TE/H', homeCity: 'Brandywine', homeState: 'Md.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (AyronMonroe:Person:Player {name: 'Ayron Monroe', position: 'S', homeCity: 'Largo', homeState: 'Md.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (SaquonBarkley:Person:Player {name: 'Saquon Barkley', position: 'RB', homeCity: 'Coplay', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017]})
+CREATE (JohnReid:Person:Player {name: 'John Reid', position: 'CB', homeCity: 'Mount Laurel', homeState: 'N.J.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (KevinGivens:Person:Player {name: 'Kevin Givens', position: 'DE', homeCity: 'Altoona', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (GordonBentley:Person:Player {name: 'Gordon Bentley', position: 'WR', homeCity: 'Blue Bell', homeState: 'Pa.', yearsOnRoster: [2015, 2016]})
+CREATE (JakeCooper:Person:Player {name: 'Jake Cooper', position: 'LB', homeCity: 'Doylestown', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (JanJohnson:Person:Player {name: 'Jan Johnson', position: 'LB', homeCity: 'Mohnton', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (TroyShorts:Person:Player {name: 'Troy Shorts', position: 'RB', homeCity: 'Sicklerville', homeState: 'N.J.', yearsOnRoster: [2015, 2016]})
+CREATE (JoshMcPhearson:Person:Player {name: 'Josh McPhearson', position: 'WR', homeCity: 'Columbia', homeState: 'Md.', yearsOnRoster: [2015, 2016, 2017]})
+CREATE (MannyBowen:Person:Player {name: 'Manny Bowen', position: 'LB', homeCity: 'Barnegat', homeState: 'N.J.', yearsOnRoster: [2015, 2016]})
+CREATE (ColinCastagna:Person:Player {name: 'Colin Castagna', position: 'DE', homeCity: 'Barrington', homeState: 'Ill.', yearsOnRoster: [2015, 2016, 2017]})
+CREATE (ShareefMiller:Person:Player {name: 'Shareef Miller', position: 'DE', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (RyanBates:Person:Player {name: 'Ryan Bates', position: 'G/C', homeCity: 'Warrington', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (RobertWindsor:Person:Player {name: 'Robert Windsor', position: 'DT', homeCity: 'Fond Du Lac', homeState: 'Wis.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (KamCarter:Person:Player {name: 'Kam Carter', position: 'DE', homeCity: 'Silver Spring', homeState: 'Md.', yearsOnRoster: [2015]})
+CREATE (StevenGonzalez:Person:Player {name: 'Steven Gonzalez', position: 'G/C', homeCity: 'Union City', homeState: 'N.J.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (JackLasher:Person:Player {name: 'Jack Lasher', position: 'G', homeCity: 'Richmond', homeState: 'Va.', yearsOnRoster: [2015]})
+CREATE (ZachSimpson:Person:Player {name: 'Zach Simpson', position: 'G', homeCity: 'Hollidaysburg', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (RyanMonk:Person:Player {name: 'Ryan Monk', position: 'DT', homeCity: 'Dallas', homeState: 'Pa.', yearsOnRoster: [2015, 2016]})
+CREATE (KevinReihner:Person:Player {name: 'Kevin Reihner', position: 'C/G', homeCity: 'Scranton', homeState: 'Pa.', yearsOnRoster: [2015]})
+CREATE (AdamDeBoef:Person:Player {name: 'Adam De Boef', position: 'G/C', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2014, 2015, 2016]})
+CREATE (ParisPalmer:Person:Player {name: 'Paris Palmer', position: 'T', homeCity: 'Plymouth', homeState: 'N.C.', yearsOnRoster: [2015, 2016]})
+CREATE (SterlingJenkins:Person:Player {name: 'Sterling Jenkins', position: 'T', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (TylerShoop:Person:Player {name: 'Tyler Shoop', position: 'WR', homeCity: 'Nashville', homeState: 'Tenn.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (NickBowers:Person:Player {name: 'Nick Bowers', position: 'TE/H', homeCity: 'Kittanning', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017, 2018, 2019]})
+CREATE (JuwanJohnson:Person:Player {name: 'Juwan Johnson', position: 'WR', homeCity: 'Glassboro', homeState: 'N.J.', yearsOnRoster: [2015, 2016, 2017, 2018]})
+CREATE (IrvinCharles:Person:Player {name: 'Irvin Charles', position: 'WR', homeCity: 'Sicklerville', homeState: 'N.J.', yearsOnRoster: [2015, 2016]})
+CREATE (DanChisena:Person:Player {name: 'Dan Chisena', position: 'WR', homeCity: 'Downingtown', homeState: 'Pa.', yearsOnRoster: [2015, 2018, 2019]})
+CREATE (NickBoumerhi:Person:Player {name: 'Nick Boumerhi', position: 'PK', homeCity: 'Phillipsburg', homeState: 'Pa.', yearsOnRoster: [2015]})
+CREATE (TylerDavis:Person:Player {name: 'Tyler Davis', position: 'K/P', homeCity: 'St. Charles', homeState: 'Ill.', yearsOnRoster: [2015, 2016, 2017]})
+CREATE (RyanBuchholz:Person:Player {name: 'Ryan Buchholz', position: 'DE', homeCity: 'Malvern', homeState: 'Pa.', yearsOnRoster: [2015, 2016, 2017]})
+CREATE (NickCox:Person:Player {name: 'Nick Cox', position: 'SN', homeCity: 'Tampa', homeState: 'Fla.', yearsOnRoster: [2015, 2016]})
+CREATE (JordanWombacker:Person:Player {name: 'Jordan Wombacker', position: 'K/P', homeCity: 'Hermitage', homeState: 'Pa.', yearsOnRoster: [2015, 2016]})
+CREATE (JakeZembiec:Person:Player {name: 'Jake Zembiec', position: 'QB', homeCity: 'Rochester', homeState: 'N.Y.', yearsOnRoster: [2016, 2017]})
+CREATE (ZechMcPhearson:Person:Player {name: 'Zech McPhearson', position: 'CB', homeCity: 'Columbia', homeState: 'Md.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (MichaelShuster:Person:Player {name: 'Michael Shuster', position: 'QB', homeCity: 'Camp Hill', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (MilesSanders:Person:Player {name: 'Miles Sanders', position: 'RB', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (TJJohnson:Person:Player {name: 'T.J. Johnson', position: 'CB', homeCity: 'Cleveland', homeState: 'Ohio', yearsOnRoster: [2016]})
+CREATE (CamBrown:Person:Player {name: 'Cam Brown', position: 'LB', homeCity: 'Burtonsville', homeState: 'Md.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (ChristopherWelde:Person:Player {name: 'Christopher Welde', position: 'WR', homeCity: 'Newtown', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (IrvinePaye:Person:Player {name: 'Irvine Paye', position: 'RB', homeCity: 'Orange', homeState: 'N.J.', yearsOnRoster: [2016]})
+CREATE (MitchellVallone:Person:Player {name: 'Mitchell Vallone', position: 'S', homeCity: 'Johnsonburg', homeState: 'Pa.', yearsOnRoster: [2016, 2017]})
+CREATE (ShaneSimmons:Person:Player {name: 'Shane Simmons', position: 'DE', homeCity: 'Laurel', homeState: 'Md.', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (FrankDiLeo:Person:Player {name: 'Frank Di Leo', position: 'LB', homeCity: 'Elmhurst', homeState: 'Ill.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (NickEury:Person:Player {name: 'Nick Eury', position: 'RB', homeCity: 'Shavertown', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (EllisonJordan:Person:Player {name: 'Ellison Jordan', position: 'DT', homeCity: 'Upper Marlboro', homeState: 'Md.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (ShakaToney:Person:Player {name: 'Shaka Toney', position: 'DE', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (JoeDuMond:Person:Player {name: 'Joe DuMond', position: 'LB', homeCity: 'Philadelphia', homeState: 'Pa.', yearsOnRoster: [2016, 2017]})
+CREATE (WillBlair:Person:Player {name: 'Will Blair', position: 'S', homeCity: 'Lancaster', homeState: 'Pa.', yearsOnRoster: [2016, 2017]})
+CREATE (DanielJoseph:Person:Player {name: 'Daniel Joseph', position: 'DE', homeCity: 'Brampton', homeState: 'Ontario', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (AlexGellerstedt:Person:Player {name: 'Alex Gellerstedt', position: 'OL', homeCity: 'Dublin', homeState: 'Ohio', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (JasonVranic:Person:Player {name: 'Jason Vranic', position: 'LB', homeCity: 'Wheatfield', homeState: 'N.Y.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (AntonioShelton:Person:Player {name: 'Antonio Shelton', position: 'DT', homeCity: 'Columbus', homeState: 'Ohio', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (TyrellChavis:Person:Player {name: 'Tyrell Chavis', position: 'DT', homeCity: 'Richmond', homeState: 'Va.', yearsOnRoster: [2016, 2017]})
+CREATE (MichalMenet:Person:Player {name: 'Michal Menet', position: 'G', homeCity: 'Birdsboro', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (ConnorMcGovern:Person:Player {name: 'Connor McGovern', position: 'OL', homeCity: 'Larksville', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (HunterKelly:Person:Player {name: 'Hunter Kelly', position: 'G', homeCity: 'Langhorne', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (WillFries:Person:Player {name: 'Will Fries', position: 'T', homeCity: 'Cranford', homeState: 'N.J.', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (DannyDalton:Person:Player {name: 'Danny Dalton', position: 'TE/H', homeCity: 'Marshfield', homeState: 'Mass.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (StevenGrampp:Person:Player {name: 'Steven Grampp', position: 'TE/H', homeCity: 'East Stroudsburg', homeState: 'Pa.', yearsOnRoster: [2016]})
+CREATE (IsaacLutz:Person:Player {name: 'Isaac Lutz', position: 'WR', homeCity: 'Reading', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019, 2020]})
+CREATE (CodyHodgens:Person:Player {name: 'Cody Hodgens', position: 'WR', homeCity: 'Wesley Chapel', homeState: 'Fla.', yearsOnRoster: [2016, 2017]})
+CREATE (DaeLunDarien:Person:Player {name: 'DaeLun Darien', position: 'WR', homeCity: 'Baltimore', homeState: 'Md.', yearsOnRoster: [2016, 2017, 2018]})
+CREATE (ColtonMaxwell:Person:Player {name: 'Colton Maxwell', position: 'WR', homeCity: 'Northampton', homeState: 'Pa.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (AlexBarbir:Person:Player {name: 'Alex Barbir', position: 'K', homeCity: 'Cumming', homeState: 'Ga.', yearsOnRoster: [2016]})
+CREATE (BlakeGillikin:Person:Player {name: 'Blake Gillikin', position: 'P/K', homeCity: 'Smyrna', homeState: 'Ga.', yearsOnRoster: [2016, 2017, 2018, 2019]})
+CREATE (ImmanuelIyke:Person:Player {name: 'Immanuel Iyke', position: 'DT', homeCity: 'Hackettstown', homeState: 'N.J.', yearsOnRoster: [2016, 2017]})
+CREATE (BrenonThrift:Person:Player {name: 'Brenon Thrift', position: 'DT', homeCity: 'Monroeville', homeState: 'Pa.', yearsOnRoster: [2016]})
+CREATE (KJHamler:Person:Player {name: 'KJ Hamler', position: 'WR', homeCity: 'Pontiac', homeState: 'Mich.', yearsOnRoster: [2017, 2018, 2019]})
+CREATE (DonovanJohnson:Person:Player {name: 'Donovan Johnson', position: 'CB', homeCity: 'Detroit', homeState: 'Mich.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (TariqCastroFields:Person:Player {name: 'Tariq Castro-Fields', position: 'CB', homeCity: 'Upper Marlboro', homeState: 'Md.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (MacHippenhammer:Person:Player {name: 'Mac Hippenhammer', position: 'WR', homeCity: 'Fort Wayne', homeState: 'Ind.', yearsOnRoster: [2017, 2018, 2019]})
+CREATE (EllisBrooks:Person:Player {name: 'Ellis Brooks', position: 'LB', homeCity: 'Mechanicsville', homeState: 'Va.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (SeanClifford:Person:Player {name: 'Sean Clifford', position: 'QB', homeCity: 'Cincinnati', homeState: 'Ohio', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (JabariButler:Person:Player {name: 'Jabari Butler', position: 'CB', homeCity: 'Potomac', homeState: 'Md.', yearsOnRoster: [2017]})
+CREATE (DJBrown:Person:Player {name: 'DJ Brown', position: 'CB', homeCity: 'College Park', homeState: 'Ga.', yearsOnRoster: [2017, 2018, 2019]})
+CREATE (BrelinFaisonWalden:Person:Player {name: 'Brelin Faison-Walden', position: 'LB', homeCity: 'Greensboro', homeState: 'N.C.', yearsOnRoster: [2017, 2018]})
+CREATE (JonathanSutherland:Person:Player {name: 'Jonathan Sutherland', position: 'S', homeCity: 'Ottawa', homeState: 'Ontario', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (JourneyBrown:Person:Player {name: 'Journey Brown', position: 'RB', homeCity: 'Meadville', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (JustinNeff:Person:Player {name: 'Justin Neff', position: 'S', homeCity: 'Mill Hall', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019]})
+CREATE (DrewHartlaub:Person:Player {name: 'Drew Hartlaub', position: 'S', homeCity: 'Hanover', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (LamontWade:Person:Player {name: 'Lamont Wade', position: 'CB', homeCity: 'Clairton', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (JoeArcangelo:Person:Player {name: 'Joe Arcangelo', position: 'TE', homeCity: 'Clarks Summit', homeState: 'Pa.', yearsOnRoster: [2017, 2018]})
+CREATE (BrailynFranklin:Person:Player {name: 'Brailyn Franklin', position: 'LB', homeCity: 'Arlington', homeState: 'Texas', yearsOnRoster: [2017]})
+CREATE (MaxChizmar:Person:Player {name: 'Max Chizmar', position: 'LB', homeCity: 'Mars', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (FredHansard:Person:Player {name: 'Fred Hansard', position: 'DT', homeCity: 'Burlington', homeState: 'N.J.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (EvanPresta:Person:Player {name: 'Evan Presta', position: 'DT', homeCity: 'Erie', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (CJThorpe:Person:Player {name: 'C.J. Thorpe', position: 'OL', homeCity: 'Glenshaw', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (RobbieMartin:Person:Player {name: 'Robbie Martin', position: 'OL', homeCity: 'Sparta', homeState: 'N.J.', yearsOnRoster: [2017]})
+CREATE (MikeMiranda:Person:Player {name: 'Mike Miranda', position: 'OL', homeCity: 'Stow', homeState: 'Ohio', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (DesHolmes:Person:Player {name: 'Des Holmes', position: 'OL', homeCity: 'Norristown', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (JustinWeller:Person:Player {name: 'Justin Weller', position: 'WR', homeCity: 'Sinking Spring', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (CamSullivanBrown:Person:Player {name: 'Cam Sullivan-Brown', position: 'WR', homeCity: 'Bowie', homeState: 'Md.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (AlexHoenstine:Person:Player {name: 'Alex Hoenstine', position: 'WR', homeCity: 'East Freedom', homeState: 'Pa.', yearsOnRoster: [2017, 2018]})
+CREATE (DamionBarber:Person:Player {name: 'Damion Barber', position: 'DE', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (ChrisStoll:Person:Player {name: 'Chris Stoll', position: 'SN', homeCity: 'Westerville', homeState: 'Ohio', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (CoreyBolds:Person:Player {name: 'Corey Bolds', position: 'DT', homeCity: 'Paterson', homeState: 'N.J.', yearsOnRoster: [2017]})
+CREATE (JoeCalcagno:Person:Player {name: 'Joe Calcagno', position: 'SN', homeCity: 'Elmhurst', homeState: 'Ill.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (CarsonLandis:Person:Player {name: 'Carson Landis', position: 'K/P', homeCity: 'Macungie', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (MikeCurry:Person:Player {name: 'Mike Curry', position: 'LS', homeCity: 'Phillipsburg', homeState: 'N.J.', yearsOnRoster: [2017]})
+CREATE (DanVasey:Person:Player {name: 'Dan Vasey', position: 'DL/LS', homeCity: 'Lackawaxen', homeState: 'Pa.', yearsOnRoster: [2017, 2018, 2019, 2020]})
+CREATE (NickDeAngelis:Person:Player {name: 'Nick DeAngelis', position: 'K', homeCity: 'Ramsey', homeState: 'N.J.', yearsOnRoster: [2017]})
+CREATE (YeturGrossMatos:Person:Player {name: 'Yetur Gross-Matos', position: 'DE', homeCity: 'Spotsylvania', homeState: 'Va.', yearsOnRoster: [2017, 2018, 2019]})
+CREATE (RickySlade:Person:Player {name: 'Ricky Slade', position: 'RB', homeCity: 'Woodbridge', homeState: 'Va.', yearsOnRoster: [2018, 2019]})
+CREATE (JahanDotson:Person:Player {name: 'Jahan Dotson', position: 'WR', homeCity: 'Nazareth', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (JustinShorter:Person:Player {name: 'Justin Shorter', position: 'WR', homeCity: 'Monmouth Junction', homeState: 'N.J.', yearsOnRoster: [2018]})
+CREATE (MicahParsons:Person:Player {name: 'Micah Parsons', position: 'LB', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (GraysonKline:Person:Player {name: 'Grayson  Kline', position: 'QB', homeCity: 'Sinking Spring', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (WillLevis:Person:Player {name: 'Will Levis', position: 'QB', homeCity: 'Madison', homeState: 'Conn.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (TrentGordon:Person:Player {name: 'Trent Gordon', position: 'CB', homeCity: 'Spring', homeState: 'Texas', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (AeneasHawkins:Person:Player {name: 'Aeneas Hawkins', position: 'DT', homeCity: 'Cincinnati', homeState: 'Ohio', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CodyRomano:Person:Player {name: 'Cody Romano', position: 'S', homeCity: 'Newton', homeState: 'N.J.', yearsOnRoster: [2018]})
+CREATE (JaysonOweh:Person:Player {name: 'Jayson Oweh', position: 'DE', homeCity: 'Howell', homeState: 'N.J.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (HenryFessler:Person:Player {name: 'Henry Fessler', position: 'WR', homeCity: 'Erie', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CJHolmes:Person:Player {name: 'C.J. Holmes', position: 'RB', homeCity: 'Hamden', homeState: 'Conn.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (JesseLuketa:Person:Player {name: 'Jesse Luketa', position: 'LB', homeCity: 'Ottawa', homeState: 'Ontario', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (TrevorBaker:Person:Player {name: 'Trevor Baker', position: 'TE/H', homeCity: 'Easton', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CameronPica:Person:Player {name: 'Cameron Pica', position: 'WR', homeCity: 'Hermitage', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CharlieKatshir:Person:Player {name: 'Charlie Katshir', position: 'LB', homeCity: 'Camp Hill', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (NickTarburton:Person:Player {name: 'Nick Tarburton', position: 'DE', homeCity: 'Green Lane', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CadePollard:Person:Player {name: 'Cade Pollard', position: 'P', homeCity: 'Boerne', homeState: 'Texas', yearsOnRoster: [2018]})
+CREATE (WIllKnutsson:Person:Player {name: 'WIll Knutsson', position: 'OL', homeCity: 'Fredericksburg', homeState: 'Va.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (RasheedWalker:Person:Player {name: 'Rasheed Walker', position: 'OL', homeCity: 'Waldorf', homeState: 'Md.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (KalebKonigus:Person:Player {name: 'Kaleb Konigus', position: 'OL', homeCity: 'Lehman', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (CollinDeBoef:Person:Player {name: 'Collin De Boef', position: 'OL', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (JuiceScruggs:Person:Player {name: 'Juice Scruggs', position: 'OL', homeCity: 'Ashtabula', homeState: 'Ohio', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (BryceEffner:Person:Player {name: 'Bryce Effner', position: 'OL', homeCity: 'Aurora', homeState: 'Ill.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (ZackKuntz:Person:Player {name: 'Zack Kuntz', position: 'TE/H', homeCity: 'Camp Hill', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (DanielGeorge:Person:Player {name: 'Daniel George', position: 'WR', homeCity: 'Fort Washington', homeState: 'Md.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (PatFreiermuth:Person:Player {name: 'Pat Freiermuth', position: 'TE/H', homeCity: 'Merrimac', homeState: 'Mass.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (JudgeCulpepper:Person:Player {name: 'Judge Culpepper', position: 'DT', homeCity: 'Tampa', homeState: 'Fla.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (BrandonClark:Person:Player {name: 'Brandon  Clark', position: 'WR', homeCity: 'State', homeState: '', yearsOnRoster: [2018]})
+CREATE (RafaelCheca:Person:Player {name: 'Rafael Checa', position: 'K', homeCity: 'Chevy Chase', homeState: 'Md.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (JakePinegar:Person:Player {name: 'Jake Pinegar', position: 'K', homeCity: 'Ankeny', homeState: 'Iowa', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (PJMustipher:Person:Player {name: 'PJ Mustipher', position: 'DT', homeCity: 'Owings Mills', homeState: 'Md.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (DonnellDix:Person:Player {name: 'Donnell Dix', position: 'DE', homeCity: 'Salisbury', homeState: 'Md.', yearsOnRoster: [2018]})
+CREATE (VladHilling:Person:Player {name: 'Vlad Hilling', position: 'K', homeCity: 'Hollidaysburg', homeState: 'Pa.', yearsOnRoster: [2018, 2019, 2020]})
+CREATE (MattAloni:Person:Player {name: 'Matt Aloni', position: 'SN', homeCity: 'Farmingdale', homeState: 'N.Y.', yearsOnRoster: [2018]})
+CREATE (KevinCahill:Person:Player {name: 'Kevin Cahill', position: 'SN', homeCity: 'Summit', homeState: 'N.J.', yearsOnRoster: [2018]})
+CREATE (JustinTobin:Person:Player {name: 'Justin Tobin', position: 'K', homeCity: 'Langhorne', homeState: 'Pa.', yearsOnRoster: [2018, 2019]})
+CREATE (KeatonEllis:Person:Player {name: 'Keaton Ellis', position: 'CB', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (JaquanBrisker:Person:Player {name: 'Jaquan Brisker', position: 'S', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (JohnDunmore:Person:Player {name: 'John Dunmore', position: 'WR', homeCity: 'Fort Lauderdale', homeState: 'Fla.', yearsOnRoster: [2019, 2020]})
+CREATE (MarquisWilson:Person:Player {name: 'Marquis Wilson', position: 'CB', homeCity: 'Windsor', homeState: 'Conn.', yearsOnRoster: [2019, 2020]})
+CREATE (JoeyPorterJr:Person:Player {name: 'Joey  Porter Jr.', position: 'CB', homeCity: 'Bakersfield', homeState: 'Calif.', yearsOnRoster: [2019, 2020]})
+CREATE (TaQuanRoberson:Person:Player {name: 'TaQuan Roberson', position: 'QB', homeCity: 'Orange', homeState: 'N.J.', yearsOnRoster: [2019, 2020]})
+CREATE (LanceDixon:Person:Player {name: 'Lance Dixon', position: 'LB', homeCity: 'West Bloomfield', homeState: 'Mich.', yearsOnRoster: [2019, 2020]})
+CREATE (TJJones:Person:Player {name: 'TJ Jones', position: 'WR', homeCity: 'Lake City', homeState: 'Fla.', yearsOnRoster: [2019, 2020]})
+CREATE (MichaelJohnsonJr:Person:Player {name: 'Michael Johnson Jr.', position: 'QB', homeCity: 'Eugene', homeState: 'Ore.', yearsOnRoster: [2019, 2020]})
+CREATE (AdisaIsaac:Person:Player {name: 'Adisa Isaac', position: 'DE', homeCity: 'Brooklyn', homeState: 'N.Y.', yearsOnRoster: [2019, 2020]})
+CREATE (NoahCain:Person:Player {name: 'Noah Cain', position: 'RB', homeCity: 'Baton Rouge', homeState: 'La.', yearsOnRoster: [2019, 2020]})
+CREATE (TylerRudolph:Person:Player {name: 'Tyler Rudolph', position: 'S', homeCity: 'Waterbury', homeState: 'Conn.', yearsOnRoster: [2019, 2020]})
+CREATE (WestonCarr:Person:Player {name: 'Weston Carr', position: 'WR', homeCity: 'Benicia', homeState: 'Calif.', yearsOnRoster: [2019]})
+CREATE (DaequanHardy:Person:Player {name: 'Daequan Hardy', position: 'CB', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (JadenSeider:Person:Player {name: 'Jaden Seider', position: 'S', homeCity: 'Morgantown', homeState: 'W.Va.', yearsOnRoster: [2019, 2020]})
+CREATE (DevynFord:Person:Player {name: 'Devyn Ford', position: 'RB', homeCity: 'Stafford', homeState: 'Va.', yearsOnRoster: [2019, 2020]})
+CREATE (TaweTawe:Person:Player {name: 'Tawe Tawe', position: 'S', homeCity: 'Hillsborough', homeState: 'N.J.', yearsOnRoster: [2019]})
+CREATE (DenverLight:Person:Player {name: 'Denver Light', position: 'LB', homeCity: 'Tyrone', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (DylanFarronato:Person:Player {name: 'Dylan Farronato', position: 'S', homeCity: 'Lewisburg', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (CoreyMelzer:Person:Player {name: 'Corey Melzer', position: 'CB', homeCity: 'Wexford', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (MakaiSelf:Person:Player {name: 'Makai Self', position: 'CB', homeCity: 'Upper Marlboro', homeState: 'Md.', yearsOnRoster: [2019, 2020]})
+CREATE (RobbieDwyer:Person:Player {name: 'Robbie Dwyer', position: 'LB', homeCity: 'Pringle', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (AustinSullivan:Person:Player {name: 'Austin Sullivan', position: 'SN', homeCity: 'Port Jervis', homeState: 'N.Y.', yearsOnRoster: [2019]})
+CREATE (JosephAppiahDarkwa:Person:Player {name: 'Joseph Appiah Darkwa', position: 'DT', homeCity: 'North Rhine-Westphalia', homeState: 'Germany', yearsOnRoster: [2019, 2020]})
+CREATE (TommyFriberg:Person:Player {name: 'Tommy Friberg', position: 'TE/H', homeCity: 'State College', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (AlexFurmanek:Person:Player {name: 'Alex Furmanek', position: 'LB', homeCity: 'North East', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (HakeemBeamon:Person:Player {name: 'Hakeem Beamon', position: 'DT', homeCity: 'Midlothian', homeState: 'Va.', yearsOnRoster: [2019, 2020]})
+CREATE (DaltonDaddona:Person:Player {name: 'Dalton Daddona', position: 'OL', homeCity: 'Allentown', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (BlakeZalar:Person:Player {name: 'Blake Zalar', position: 'OL', homeCity: 'Coal Township', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (AnthonyWhigan:Person:Player {name: 'Anthony Whigan', position: 'OL', homeCity: 'Lexington Park', homeState: 'Md.', yearsOnRoster: [2019, 2020]})
+CREATE (JustinKopko:Person:Player {name: 'Justin Kopko', position: 'OL', homeCity: 'Hanover Township', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (SalWormley:Person:Player {name: 'Sal Wormley', position: 'OL', homeCity: 'Newark', homeState: 'N.J.', yearsOnRoster: [2019, 2020]})
+CREATE (CaedanWallace:Person:Player {name: 'Caedan Wallace', position: 'OL', homeCity: 'Robbinsville', homeState: 'N.J.', yearsOnRoster: [2019, 2020]})
+CREATE (BenjaminWilson:Person:Player {name: 'Benjamin Wilson', position: 'WR', homeCity: 'Uniontown', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (AlecBerger:Person:Player {name: 'Alec Berger', position: 'WR', homeCity: 'McKinney', homeState: 'Texas', yearsOnRoster: [2019, 2020]})
+CREATE (BrentonStrange:Person:Player {name: 'Brenton Strange', position: 'TE/H', homeCity: 'Parkersburg', homeState: 'W.Va.', yearsOnRoster: [2019, 2020]})
+CREATE (DvonEllies:Person:Player {name: 'Dvon Ellies', position: 'DT', homeCity: 'Burtonsville', homeState: 'Md.', yearsOnRoster: [2019, 2020]})
+CREATE (SmithVilbert:Person:Player {name: 'Smith Vilbert', position: 'DE', homeCity: 'Monsey', homeState: 'N.Y.', yearsOnRoster: [2019, 2020]})
+CREATE (AnthonyDaSilva:Person:Player {name: 'Anthony DaSilva', position: 'K', homeCity: 'Bethlehem', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (SebastianCostantini:Person:Player {name: 'Sebastian Costantini', position: 'K/P', homeCity: 'Collegeville', homeState: 'Pa.', yearsOnRoster: [2019, 2020]})
+CREATE (BradleyKing:Person:Player {name: 'Bradley King', position: 'P', homeCity: 'Geneva', homeState: 'Ill.', yearsOnRoster: [2019, 2020]})
+CREATE (JordanStout:Person:Player {name: 'Jordan Stout', position: 'K/P', homeCity: 'Cedar Bluff', homeState: 'Va.', yearsOnRoster: [2019, 2020]})
+CREATE (KeAndreLambertSmith:Person:Player {name: 'KeAndre Lambert-Smith', position: 'WR', homeCity: 'Norfolk', homeState: 'Va.', yearsOnRoster: [2020]})
+CREATE (EnzoJennings:Person:Player {name: 'Enzo Jennings', position: 'S', homeCity: 'Detroit', homeState: 'Mich.', yearsOnRoster: [2020]})
+CREATE (JosephJohnsonIII:Person:Player {name: 'Joseph Johnson III', position: 'CB', homeCity: 'Richmond', homeState: 'Va.', yearsOnRoster: [2020]})
+CREATE (JadenDottin:Person:Player {name: 'Jaden Dottin', position: 'WR', homeCity: 'Cambridge', homeState: 'Mass.', yearsOnRoster: [2020]})
+CREATE (CaziahHolmes:Person:Player {name: 'Caziah Holmes', position: 'RB', homeCity: 'Titusville', homeState: 'Fla.', yearsOnRoster: [2020]})
+CREATE (BryceMostella:Person:Player {name: 'Bryce Mostella', position: 'DE', homeCity: 'Kentwood', homeState: 'Mich.', yearsOnRoster: [2020]})
+CREATE (TankSmith:Person:Player {name: 'Tank Smith', position: 'RB', homeCity: 'Pittsburgh', homeState: 'Pa.', yearsOnRoster: [2020]})
+CREATE (TylerElsdon:Person:Player {name: 'Tyler Elsdon', position: 'LB', homeCity: 'Frackville', homeState: 'Pa.', yearsOnRoster: [2020]})
+CREATE (FatormaMulbah:Person:Player {name: 'Fatorma Mulbah', position: 'DT', homeCity: 'Harrisburg', homeState: 'Pa.', yearsOnRoster: [2020]})
+CREATE (NickDawkins:Person:Player {name: 'Nick  Dawkins', position: 'OL', homeCity: 'Allentown', homeState: 'Pa.', yearsOnRoster: [2020]})
+CREATE (TheoJohnson:Person:Player {name: 'Theo  Johnson', position: 'TE', homeCity: 'Windsor', homeState: 'Ont.', yearsOnRoster: [2020]})
+CREATE (ColeBrevard:Person:Player {name: 'Cole Brevard', position: 'DT', homeCity: 'Carmel', homeState: 'Ind.', yearsOnRoster: [2020]})
+CREATE (:School:HighSchool {name: ''})
+CREATE (NorthEast:School:HighSchool {name: 'North East'})
+CREATE (JohnSlinkard:School:HighSchool {name: 'John Slinkard'})
+CREATE (AydenGrifton:School:HighSchool {name: 'Ayden-Grifton'})
+CREATE (GregBotta:School:HighSchool {name: 'Greg Botta'})
+CREATE (NorthStafford:School:HighSchool {name: 'North Stafford'})
+CREATE (MattGrohal:School:HighSchool {name: 'Matt Grohal'})
+CREATE (UnionCity:School:HighSchool {name: 'Union City'})
+CREATE (DavidBradshaw:School:HighSchool {name: 'David Bradshaw'})
+CREATE (GeorgeHowanitz:School:HighSchool {name: 'George Howanitz'})
+CREATE (SamMormando:School:HighSchool {name: 'Sam Mormando'})
+CREATE (ForkUnionMilitaryAcademy:School:HighSchool {name: 'Fork Union Military Academy'})
+CREATE (McKinney:School:HighSchool {name: 'McKinney'})
+CREATE (DecaturCentral:School:HighSchool {name: 'Decatur Central'})
+CREATE (JimCantifio:School:HighSchool {name: 'Jim Cantifio'})
+CREATE (DePaulCatholic:School:HighSchool {name: 'DePaul Catholic'})
+CREATE (ZacWynkoop:School:HighSchool {name: 'Zac Wynkoop'})
+CREATE (Wicomico:School:HighSchool {name: 'Wicomico'})
+CREATE (LakeBraddockSecondary:School:HighSchool {name: 'Lake Braddock Secondary'})
+CREATE (WestScranton:School:HighSchool {name: 'West Scranton'})
+CREATE (Northeast:School:HighSchool {name: 'Northeast'})
+CREATE (Emmaus:School:HighSchool {name: 'Emmaus'})
+CREATE (NeuquaValley:School:HighSchool {name: 'Neuqua Valley'})
+CREATE (TheLovettSchool:School:HighSchool {name: 'The Lovett School'})
+CREATE (Rosemount:School:HighSchool {name: 'Rosemount'})
+CREATE (Canarsie:School:HighSchool {name: 'Canarsie'})
+CREATE (BobGuyer:School:HighSchool {name: 'Bob Guyer'})
+CREATE (EpiscopalVa:School:HighSchool {name: 'Episcopal (Va.)'})
+CREATE (RobinKirk:School:HighSchool {name: 'Robin Kirk'})
+CREATE (DrHenryAWiseJr:School:HighSchool {name: 'Dr. Henry A. Wise Jr.'})
+CREATE (MikeDeAntona:School:HighSchool {name: 'Mike DeAntona'})
+CREATE (Fenwick:School:HighSchool {name: 'Fenwick'})
+CREATE (GlennHoward:School:HighSchool {name: 'Glenn Howard'})
+CREATE (TerryTrotten:School:HighSchool {name: 'Terry Trotten'})
+CREATE (MontgomeryBellAcademy:School:HighSchool {name: 'Montgomery Bell Academy'})
+CREATE (ScottAshby:School:HighSchool {name: 'Scott Ashby'})
+CREATE (Manvel:School:HighSchool {name: 'Manvel'})
+CREATE (RonCohen:School:HighSchool {name: 'Ron Cohen'})
+CREATE (FrankRoccoJr:School:HighSchool {name: 'Frank Rocco, Jr.'})
+CREATE (SaintChristophers:School:HighSchool {name: 'Saint Christophers'})
+CREATE (MifflinburgArea:School:HighSchool {name: 'Mifflinburg Area'})
+CREATE (Woodbury:School:HighSchool {name: 'Woodbury'})
+CREATE (JoeHamilton:School:HighSchool {name: 'Joe Hamilton'})
+CREATE (SouthAllegheny:School:HighSchool {name: 'South Allegheny'})
+CREATE (LewisburgArea:School:HighSchool {name: 'Lewisburg Area'})
+CREATE (GenevaCommunity:School:HighSchool {name: 'Geneva Community'})
+CREATE (DuffyBesch:School:HighSchool {name: 'Duffy Besch'})
+CREATE (Euclid:School:HighSchool {name: 'Euclid'})
+CREATE (JohnHolecek:School:HighSchool {name: 'John Holecek'})
+CREATE (CurtClifford:School:HighSchool {name: 'Curt Clifford'})
+CREATE (Baldwin:School:HighSchool {name: 'Baldwin'})
+CREATE (TimBrennan:School:HighSchool {name: 'Tim Brennan'})
+CREATE (WilliamChaplick:School:HighSchool {name: 'William Chaplick'})
+CREATE (Parkland:School:HighSchool {name: 'Parkland'})
+CREATE (SaintIgnatiusCollegePrep:School:HighSchool {name: 'Saint Ignatius College Prep'})
+CREATE (CJHoffman:School:HighSchool {name: 'C.J. Hoffman'})
+CREATE (BradLivingston:School:HighSchool {name: 'Brad Livingston'})
+CREATE (Millville:School:HighSchool {name: 'Millville'})
+CREATE (BrooksSchool:School:HighSchool {name: 'Brooks School'})
+CREATE (Susquehanna:School:HighSchool {name: 'Susquehanna'})
+CREATE (CarmelCatholic:School:HighSchool {name: 'Carmel Catholic'})
+CREATE (CathedralPrep:School:HighSchool {name: 'Cathedral Prep'})
+CREATE (JacqueDemattio:School:HighSchool {name: 'Jacque Demattio'})
+CREATE (StJosephsRegionalNJ:School:HighSchool {name: 'St. Josephs Regional (N.J.)'})
+CREATE (OxonHill:School:HighSchool {name: 'Oxon Hill'})
+CREATE (CentralCatholic:School:HighSchool {name: 'Central Catholic'})
+CREATE (Dallas:School:HighSchool {name: 'Dallas'})
+CREATE (MaineSouth:School:HighSchool {name: 'Maine South'})
+CREATE (RNelsonSnider:School:HighSchool {name: 'R. Nelson Snider'})
+CREATE (HunterdonCentral:School:HighSchool {name: 'Hunterdon Central'})
+CREATE (BrendanFlaherty:School:HighSchool {name: 'Brendan Flaherty'})
+CREATE (Plainedge:School:HighSchool {name: 'Plainedge'})
+CREATE (StJosephsPrep:School:HighSchool {name: 'St. Josephs Prep'})
+CREATE (SaintJosephRegional:School:HighSchool {name: 'Saint Joseph Regional'})
+CREATE (CumberlandValley:School:HighSchool {name: 'Cumberland Valley'})
+CREATE (AnnapolisAreaChristian:School:HighSchool {name: 'Annapolis Area Christian'})
+CREATE (GilmanSchool:School:HighSchool {name: 'Gilman School'})
+CREATE (KevinGillespie:School:HighSchool {name: 'Kevin Gillespie'})
+CREATE (ShalerArea:School:HighSchool {name: 'Shaler Area'})
+CREATE (Pennridge:School:HighSchool {name: 'Pennridge'})
+CREATE (Hillsborough:School:HighSchool {name: 'Hillsborough'})
+CREATE (Grayson:School:HighSchool {name: 'Grayson'})
+CREATE (KevinWolfolk:School:HighSchool {name: 'Kevin Wolfolk'})
+CREATE (JonEagle:School:HighSchool {name: 'Jon Eagle'})
+CREATE (Glassboro:School:HighSchool {name: 'Glassboro'})
+CREATE (ExeterTownshipSenior:School:HighSchool {name: 'Exeter Township Senior'})
+CREATE (Hempfield:School:HighSchool {name: 'Hempfield'})
+CREATE (IMGAcademyFla:School:HighSchool {name: 'IMG Academy (Fla.)'})
+CREATE (Manchester:School:HighSchool {name: 'Manchester'})
+CREATE (GroveCity:School:HighSchool {name: 'Grove City'})
+CREATE (Oakcrest:School:HighSchool {name: 'Oakcrest'})
+CREATE (RickPennypacker:School:HighSchool {name: 'Rick Pennypacker'})
+CREATE (HialeahSenior:School:HighSchool {name: 'Hialeah Senior'})
+CREATE (AaronBrady:School:HighSchool {name: 'Aaron Brady'})
+CREATE (HolyNamesCatholic:School:HighSchool {name: 'Holy Names Catholic'})
+CREATE (EastStroudsburgNorth:School:HighSchool {name: 'East Stroudsburg North'})
+CREATE (Cocoa:School:HighSchool {name: 'Cocoa'})
+CREATE (Hillside:School:HighSchool {name: 'Hillside'})
+CREATE (AbingtonHeights:School:HighSchool {name: 'Abington Heights'})
+CREATE (Whitehall:School:HighSchool {name: 'Whitehall'})
+CREATE (Gaither:School:HighSchool {name: 'Gaither'})
+CREATE (MattHeiser:School:HighSchool {name: 'Matt Heiser'})
+CREATE (AlbertHoward:School:HighSchool {name: 'Albert Howard'})
+CREATE (Parkersburg:School:HighSchool {name: 'Parkersburg'})
+CREATE (PatClark:School:HighSchool {name: 'Pat Clark'})
+CREATE (SouthForsyth:School:HighSchool {name: 'South Forsyth'})
+CREATE (MalvernPrep:School:HighSchool {name: 'Malvern Prep'})
+CREATE (SaintXavier:School:HighSchool {name: 'Saint Xavier'})
+CREATE (ScrantonPrep:School:HighSchool {name: 'Scranton Prep'})
+CREATE (Barnegat:School:HighSchool {name: 'Barnegat'})
+CREATE (Benedictine:School:HighSchool {name: 'Benedictine'})
+CREATE (EdRedmond:School:HighSchool {name: 'Ed Redmond'})
+CREATE (KevinPelligrini:School:HighSchool {name: 'Kevin Pelligrini'})
+CREATE (Dallastown:School:HighSchool {name: 'Dallastown'})
+CREATE (BerwickArea:School:HighSchool {name: 'Berwick Area'})
+CREATE (DublinCoffman:School:HighSchool {name: 'Dublin Coffman'})
+CREATE (AndyMcEvoy:School:HighSchool {name: 'Andy McEvoy'})
+CREATE (FoxChapel:School:HighSchool {name: 'Fox Chapel'})
+CREATE (TomGravish:School:HighSchool {name: 'Tom Gravish'})
+CREATE (BrianFluck:School:HighSchool {name: 'Brian Fluck'})
+CREATE (JimBrinling:School:HighSchool {name: 'Jim Brinling'})
+CREATE (ToddStuter:School:HighSchool {name: 'Todd Stuter'})
+CREATE (SuffieldAcademyConn:School:HighSchool {name: 'Suffield Academy (Conn.)'})
+CREATE (StJohnsCollegeHS:School:HighSchool {name: 'St. Johns College H.S.'})
+CREATE (RobRadice:School:HighSchool {name: 'Rob Radice'})
+CREATE (RichardAngle:School:HighSchool {name: 'Richard Angle'})
+CREATE (NorthSchuylkill:School:HighSchool {name: 'North Schuylkill'})
+CREATE (McKeesport:School:HighSchool {name: 'McKeesport'})
+CREATE (DanAlgeo:School:HighSchool {name: 'Dan Algeo'})
+CREATE (OgemawHeights:School:HighSchool {name: 'Ogemaw Heights'})
+CREATE (GreySimpson:School:HighSchool {name: 'Grey Simpson'})
+CREATE (JeffBoger:School:HighSchool {name: 'Jeff Boger'})
+CREATE (TyroneArea:School:HighSchool {name: 'Tyrone Area'})
+CREATE (NorthAllegheny:School:HighSchool {name: 'North Allegheny'})
+CREATE (GregDidio:School:HighSchool {name: 'Greg Didio'})
+CREATE (AlconburyEngland:School:HighSchool {name: 'Alconbury (England'})
+CREATE (ArtTragesser:School:HighSchool {name: 'Art Tragesser'})
+CREATE (CanonMcMillan:School:HighSchool {name: 'Canon-McMillan'})
+CREATE (TheBullisSchool:School:HighSchool {name: 'The Bullis School'})
+CREATE (DownersGroveSouth:School:HighSchool {name: 'Downers Grove South'})
+CREATE (Robbinsville:School:HighSchool {name: 'Robbinsville'})
+CREATE (RichLichtel:School:HighSchool {name: 'Rich Lichtel'})
+CREATE (ColleyvilleHeritage:School:HighSchool {name: 'Colleyville Heritage'})
+CREATE (WoodlandHills:School:HighSchool {name: 'Woodland Hills'})
+CREATE (DomZaccarelli:School:HighSchool {name: 'Dom Zaccarelli'})
+CREATE (AlWolski:School:HighSchool {name: 'Al Wolski'})
+CREATE (SalesianumSchool:School:HighSchool {name: 'Salesianum School'})
+CREATE (ParsippanyHills:School:HighSchool {name: 'Parsippany Hills'})
+CREATE (MikeGolden:School:HighSchool {name: 'Mike Golden'})
+CREATE (MeteaValley:School:HighSchool {name: 'Metea Valley'})
+CREATE (RichardMorgan:School:HighSchool {name: 'Richard Morgan'})
+CREATE (GeorgeKosanovich:School:HighSchool {name: 'George Kosanovich'})
+CREATE (BriarWoods:School:HighSchool {name: 'Briar Woods'})
+CREATE (PopeJohnXXIII:School:HighSchool {name: 'Pope John XXIII'})
+CREATE (Chancellor:School:HighSchool {name: 'Chancellor'})
+CREATE (Wallenpaupack:School:HighSchool {name: 'Wallenpaupack'})
+CREATE (TomStacy:School:HighSchool {name: 'Tom Stacy'})
+CREATE (MarkSchmidt:School:HighSchool {name: 'Mark Schmidt'})
+CREATE (MichaelSayer:School:HighSchool {name: 'Michael Sayer'})
+CREATE (CheshireAcademy:School:HighSchool {name: 'Cheshire Academy'})
+CREATE (DeMatha:School:HighSchool {name: 'DeMatha'})
+CREATE (Carmel:School:HighSchool {name: 'Carmel'})
+CREATE (IMGAcademy:School:HighSchool {name: 'IMG Academy'})
+CREATE (Neshaminy:School:HighSchool {name: 'Neshaminy'})
+CREATE (GlenMcNamee:School:HighSchool {name: 'Glen McNamee'})
+CREATE (GilBrooks:School:HighSchool {name: 'Gil Brooks'})
+CREATE (WestOrange:School:HighSchool {name: 'West Orange'})
+CREATE (AlbertFracassa:School:HighSchool {name: 'Albert Fracassa'})
+CREATE (GeorgeChaump:School:HighSchool {name: 'George Chaump'})
+CREATE (OwenJRoberts:School:HighSchool {name: 'Owen J. Roberts'})
+CREATE (OldForge:School:HighSchool {name: 'Old Forge'})
+CREATE (OakPark:School:HighSchool {name: 'Oak Park'})
+CREATE (ButchFord:School:HighSchool {name: 'Butch Ford'})
+CREATE (Uniontown:School:HighSchool {name: 'Uniontown'})
+CREATE (JohnMattes:School:HighSchool {name: 'John Mattes'})
+CREATE (PatKeating:School:HighSchool {name: 'Pat Keating'})
+CREATE (RobertJackson:School:HighSchool {name: 'Robert Jackson'})
+CREATE (MikeMelnyk:School:HighSchool {name: 'Mike Melnyk'})
+CREATE (JeffWasilchak:School:HighSchool {name: 'Jeff Wasilchak'})
+CREATE (GeorgeRush:School:HighSchool {name: 'George Rush'})
+CREATE (RobertSteckel:School:HighSchool {name: 'Robert Steckel'})
+CREATE (BruceStrunk:School:HighSchool {name: 'Bruce Strunk'})
+CREATE (CharlesDonohueSr:School:HighSchool {name: 'Charles Donohue Sr.'})
+CREATE (AnkenyCentennial:School:HighSchool {name: 'Ankeny Centennial'})
+CREATE (KenRoberts:School:HighSchool {name: 'Ken Roberts'})
+CREATE (FatherRyan:School:HighSchool {name: 'Father Ryan'})
+CREATE (MikeWilliams:School:HighSchool {name: 'Mike Williams'})
+CREATE (Hershey:School:HighSchool {name: 'Hershey'})
+CREATE (Swansboro:School:HighSchool {name: 'Swansboro'})
+CREATE (BlairAcademy:School:HighSchool {name: 'Blair Academy'})
+CREATE (PJFecko:School:HighSchool {name: 'P.J. Fecko'})
+CREATE (StateCollegeArea:School:HighSchool {name: 'State College Area'})
+CREATE (Langley:School:HighSchool {name: 'Langley'})
+CREATE (DougLamb:School:HighSchool {name: 'Doug Lamb'})
+CREATE (JimRender:School:HighSchool {name: 'Jim Render'})
+CREATE (TheWestminsterSchools:School:HighSchool {name: 'The Westminster Schools'})
+CREATE (JeffWeachter:School:HighSchool {name: 'Jeff Weachter'})
+CREATE (Barrington:School:HighSchool {name: 'Barrington'})
+CREATE (EastGranby:School:HighSchool {name: 'East Granby'})
+CREATE (ClintAlexander:School:HighSchool {name: 'Clint Alexander'})
+CREATE (Marshfield:School:HighSchool {name: 'Marshfield'})
+CREATE (DaveDudeck:School:HighSchool {name: 'Dave Dudeck'})
+CREATE (HollidaysburgArea:School:HighSchool {name: 'Hollidaysburg Area'})
+CREATE (TomsRiverNorth:School:HighSchool {name: 'Toms River North'})
+CREATE (Ramsey:School:HighSchool {name: 'Ramsey'})
+CREATE (AltoonaArea:School:HighSchool {name: 'Altoona Area'})
+CREATE (Harriton:School:HighSchool {name: 'Harriton'})
+CREATE (TomPugh:School:HighSchool {name: 'Tom Pugh'})
+CREATE (TomVerbanic:School:HighSchool {name: 'Tom Verbanic'})
+CREATE (BillDiNardo:School:HighSchool {name: 'Bill DiNardo'})
+CREATE (WlliamColosimo:School:HighSchool {name: 'Wlliam Colosimo'})
+CREATE (Milburn:School:HighSchool {name: 'Milburn'})
+CREATE (TonyDeRosa:School:HighSchool {name: 'Tony DeRosa'})
+CREATE (JeffVroman:School:HighSchool {name: 'Jeff Vroman'})
+CREATE (MountLebanon:School:HighSchool {name: 'Mount Lebanon'})
+CREATE (Trinity:School:HighSchool {name: 'Trinity'})
+CREATE (NotreDame:School:HighSchool {name: 'Notre Dame'})
+CREATE (StFrancisNY:School:HighSchool {name: 'St. Francis (N.Y.'})
+CREATE (NewHampton:School:HighSchool {name: 'New Hampton'})
+CREATE (SouthBrunswick:School:HighSchool {name: 'South Brunswick'})
+CREATE (Girard:School:HighSchool {name: 'Girard'})
+CREATE (BobMilloy:School:HighSchool {name: 'Bob Milloy'})
+CREATE (StJohnsPrep:School:HighSchool {name: 'St. Johns Prep'})
+CREATE (NickLynch:School:HighSchool {name: 'Nick Lynch'})
+CREATE (RichardKnox:School:HighSchool {name: 'Richard Knox'})
+CREATE (Robinson:School:HighSchool {name: 'Robinson'})
+CREATE (WestervilleNorth:School:HighSchool {name: 'Westerville-North'})
+CREATE (JohnAnselmo:School:HighSchool {name: 'John Anselmo'})
+CREATE (JasonRuscitto:School:HighSchool {name: 'Jason Ruscitto'})
+CREATE (DaveHavern:School:HighSchool {name: 'Dave Havern'})
+CREATE (TuscaloosaAcademy:School:HighSchool {name: 'Tuscaloosa Academy'})
+CREATE (StThomasMore:School:HighSchool {name: 'St. Thomas More'})
+CREATE (LewisSMillsConn:School:HighSchool {name: 'Lewis S. Mills (Conn.)'})
+CREATE (NorthAlleghenyPa:School:HighSchool {name: 'North Allegheny (Pa.)'})
+CREATE (Wilson:School:HighSchool {name: 'Wilson'})
+CREATE (HazelGreen:School:HighSchool {name: 'Hazel Green'})
+CREATE (McDonoghSchool:School:HighSchool {name: 'McDonogh School'})
+CREATE (TerryTotten:School:HighSchool {name: 'Terry Totten'})
+CREATE (Randolph:School:HighSchool {name: 'Randolph'})
+CREATE (SpringFord:School:HighSchool {name: 'Spring-Ford'})
+CREATE (DaveCarruthers:School:HighSchool {name: 'Dave Carruthers'})
+CREATE (MinisinkValley:School:HighSchool {name: 'Minisink Valley'})
+CREATE (CordieGreenlea:School:HighSchool {name: 'Cordie Greenlea'})
+CREATE (RayHarrison:School:HighSchool {name: 'Ray Harrison'})
+CREATE (DanWalker:School:HighSchool {name: 'Dan Walker'})
+CREATE (GeneMatsook:School:HighSchool {name: 'Gene Matsook'})
+CREATE (MartinTobias:School:HighSchool {name: 'Martin Tobias'})
+CREATE (MarkDelpercio:School:HighSchool {name: 'Mark Delpercio'})
+CREATE (BishopMcNamara:School:HighSchool {name: 'Bishop McNamara'})
+CREATE (ElkCountyCatholic:School:HighSchool {name: 'Elk County Catholic'})
+CREATE (NorthPoint:School:HighSchool {name: 'North Point'})
+CREATE (StFrancisDeSales:School:HighSchool {name: 'St. Francis DeSales'})
+CREATE (Benicia:School:HighSchool {name: 'Benicia'})
+CREATE (CoryMarsell:School:HighSchool {name: 'Cory Marsell'})
+CREATE (Northern:School:HighSchool {name: 'Northern'})
+CREATE (Linganore:School:HighSchool {name: 'Linganore'})
+CREATE (JimWells:School:HighSchool {name: 'Jim Wells'})
+CREATE (MarsArea:School:HighSchool {name: 'Mars Area'})
+CREATE (CampHill:School:HighSchool {name: 'Camp Hill'})
+CREATE (MattOrtega:School:HighSchool {name: 'Matt Ortega'})
+CREATE (CassTech:School:HighSchool {name: 'Cass Tech'})
+CREATE (ShamokinArea:School:HighSchool {name: 'Shamokin Area'})
+CREATE (JohnHandley:School:HighSchool {name: 'John Handley'})
+CREATE (Central:School:HighSchool {name: 'Central'})
+CREATE (TheHunSchool:School:HighSchool {name: 'The Hun School'})
+CREATE (MercyhurstPrepPa:School:HighSchool {name: 'Mercyhurst Prep (Pa.)'})
+CREATE (Phillipsburg:School:HighSchool {name: 'Phillipsburg'})
+CREATE (JimPoythress:School:HighSchool {name: 'Jim Poythress'})
+CREATE (DaveMencarini:School:HighSchool {name: 'Dave Mencarini'})
+CREATE (SaintVincentPallotti:School:HighSchool {name: 'Saint Vincent Pallotti'})
+CREATE (ParamusCatholic:School:HighSchool {name: 'Paramus Catholic'})
+CREATE (ChadWeaver:School:HighSchool {name: 'Chad Weaver'})
+CREATE (AaronKrepps:School:HighSchool {name: 'Aaron Krepps'})
+CREATE (ValleyView:School:HighSchool {name: 'Valley View'})
+CREATE (Sheldon:School:HighSchool {name: 'Sheldon'})
+CREATE (CentralDauphin:School:HighSchool {name: 'Central Dauphin'})
+CREATE (ChaminadeMadonnaCollegePrep:School:HighSchool {name: 'Chaminade-Madonna College Prep'})
+CREATE (WestBloomfield:School:HighSchool {name: 'West Bloomfield'})
+CREATE (LifeChristianAcademy:School:HighSchool {name: 'Life Christian Academy'})
+CREATE (KittanningSenior:School:HighSchool {name: 'Kittanning Senior'})
+CREATE (LakeForestAcademyIll:School:HighSchool {name: 'Lake Forest Academy (Ill.)'})
+CREATE (DanielConwell:School:HighSchool {name: 'Daniel Conwell'})
+CREATE (WarrenMott:School:HighSchool {name: 'Warren Mott'})
+CREATE (GeorgePorritt:School:HighSchool {name: 'George Porritt'})
+CREATE (StowMunroe:School:HighSchool {name: 'Stow-Munroe'})
+CREATE (RobertPrunty:School:HighSchool {name: 'Robert Prunty'})
+CREATE (Moeller:School:HighSchool {name: 'Moeller'})
+CREATE (Honaker:School:HighSchool {name: 'Honaker'})
+CREATE (JerryMcConnell:School:HighSchool {name: 'Jerry McConnell'})
+CREATE (DowningtownEast:School:HighSchool {name: 'Downingtown-East'})
+CREATE (HenryTravathan:School:HighSchool {name: 'Henry Travathan'})
+CREATE (Creekside:School:HighSchool {name: 'Creekside'})
+CREATE (LowerDauphin:School:HighSchool {name: 'Lower Dauphin'})
+CREATE (BerksCatholic:School:HighSchool {name: 'Berks Catholic'})
+CREATE (FredDeinhardt:School:HighSchool {name: 'Fred Deinhardt'})
+CREATE (AthensArea:School:HighSchool {name: 'Athens Area'})
+CREATE (StAugustinePrep:School:HighSchool {name: 'St. Augustine Prep'})
+CREATE (Jesuit:School:HighSchool {name: 'Jesuit'})
+CREATE (RobertFolk:School:HighSchool {name: 'Robert Folk'})
+CREATE (GreatMills:School:HighSchool {name: 'Great Mills'})
+CREATE (GreatValley:School:HighSchool {name: 'Great Valley'})
+CREATE (ImhotepCharter:School:HighSchool {name: 'Imhotep Charter'})
+CREATE (RodneyCorkern:School:HighSchool {name: 'Rodney Corkern'})
+CREATE (PhillipsburgOsceola:School:HighSchool {name: 'Phillipsburg-Osceola'})
+CREATE (ZackValentine:School:HighSchool {name: 'Zack Valentine'})
+CREATE (Lewisburg:School:HighSchool {name: 'Lewisburg'})
+CREATE (RonQualls:School:HighSchool {name: 'Ron Qualls'})
+CREATE (DennisScunderi:School:HighSchool {name: 'Dennis Scunderi'})
+CREATE (Fairfax:School:HighSchool {name: 'Fairfax'})
+CREATE (RobertDougherty:School:HighSchool {name: 'Robert Dougherty'})
+CREATE (DaveDlugosz:School:HighSchool {name: 'Dave Dlugosz'})
+CREATE (Roxbury:School:HighSchool {name: 'Roxbury'})
+CREATE (GeorgeWashington:School:HighSchool {name: 'George Washington'})
+CREATE (CathedralPrepPa:School:HighSchool {name: 'Cathedral Prep (Pa.)'})
+CREATE (HBPlant:School:HighSchool {name: 'H.B. Plant'})
+CREATE (NiagaraWheatfield:School:HighSchool {name: 'Niagara-Wheatfield'})
+CREATE (JohnEllenberger:School:HighSchool {name: 'John Ellenberger'})
+CREATE (BishopMcDevitt:School:HighSchool {name: 'Bishop McDevitt'})
+CREATE (SalSpompanato:School:HighSchool {name: 'Sal Spompanato'})
+CREATE (CDHylton:School:HighSchool {name: 'C.D. Hylton'})
+CREATE (RichardDelaney:School:HighSchool {name: 'Richard Delaney'})
+CREATE (JeffBell:School:HighSchool {name: 'Jeff Bell'})
+CREATE (Shelby:School:HighSchool {name: 'Shelby'})
+CREATE (CedarCliff:School:HighSchool {name: 'Cedar Cliff'})
+CREATE (Andover:School:HighSchool {name: 'Andover'})
+CREATE (DonBoscoGymnasium:School:HighSchool {name: 'Don Bosco Gymnasium'})
+CREATE (EdDalton:School:HighSchool {name: 'Ed Dalton'})
+CREATE (KevinJones:School:HighSchool {name: 'Kevin Jones'})
+CREATE (TomWaranavage:School:HighSchool {name: 'Tom Waranavage'})
+CREATE (PittsfordSutherland:School:HighSchool {name: 'Pittsford Sutherland'})
+CREATE (KregKephart:School:HighSchool {name: 'Kreg Kephart'})
+CREATE (TomGreen:School:HighSchool {name: 'Tom Green'})
+CREATE (Clairton:School:HighSchool {name: 'Clairton'})
+CREATE (Columbia:School:HighSchool {name: 'Columbia'})
+CREATE (Harrisburg:School:HighSchool {name: 'Harrisburg'})
+CREATE (RandyScott:School:HighSchool {name: 'Randy Scott'})
+CREATE (Blackhawk:School:HighSchool {name: 'Blackhawk'})
+CREATE (Dunbar:School:HighSchool {name: 'Dunbar'})
+CREATE (BenWright:School:HighSchool {name: 'Ben Wright'})
+CREATE (Juniata:School:HighSchool {name: 'Juniata'})
+CREATE (SouthWestern:School:HighSchool {name: 'South Western'})
+CREATE (HanoverArea:School:HighSchool {name: 'Hanover Area'})
+CREATE (ErieCathedralPrep:School:HighSchool {name: 'Erie Cathedral Prep'})
+CREATE (Clearfield:School:HighSchool {name: 'Clearfield'})
+CREATE (Xavier:School:HighSchool {name: 'Xavier'})
+CREATE (JoeGallagher:School:HighSchool {name: 'Joe Gallagher'})
+CREATE (ShawnCarey:School:HighSchool {name: 'Shawn Carey'})
+CREATE (FondDuLac:School:HighSchool {name: 'Fond Du Lac'})
+CREATE (PennHills:School:HighSchool {name: 'Penn Hills'})
+CREATE (Hickory:School:HighSchool {name: 'Hickory'})
+CREATE (MountainView:School:HighSchool {name: 'Mountain View'})
+CREATE (LakeLehman:School:HighSchool {name: 'Lake-Lehman'})
+CREATE (OwingsMills:School:HighSchool {name: 'Owings Mills'})
+CREATE (Valparaiso:School:HighSchool {name: 'Valparaiso'})
+CREATE (SamLeedy:School:HighSchool {name: 'Sam Leedy'})
+CREATE (MilfordAcademy:School:HighSchool {name: 'Milford Academy'})
+CREATE (Meadville:School:HighSchool {name: 'Meadville'})
+CREATE (Hollidaysburg:School:HighSchool {name: 'Hollidaysburg'})
+CREATE (OrlandoLowry:School:HighSchool {name: 'Orlando Lowry'})
+CREATE (BrandonHarris:School:HighSchool {name: 'Brandon Harris'})
+CREATE (GaryJoseph:School:HighSchool {name: 'Gary Joseph'})
+CREATE (WinslowTownship:School:HighSchool {name: 'Winslow Township'})
+CREATE (CouncilRockNorth:School:HighSchool {name: 'Council Rock North'})
+CREATE (NorthernBedford:School:HighSchool {name: 'Northern Bedford'})
+CREATE (WyomingValleyWest:School:HighSchool {name: 'Wyoming Valley West'})
+CREATE (FrankSullivan:School:HighSchool {name: 'Frank Sullivan'})
+CREATE (Unionville:School:HighSchool {name: 'Unionville'})
+CREATE (AquinasInstitute:School:HighSchool {name: 'Aquinas Institute'})
+CREATE (Coatesville:School:HighSchool {name: 'Coatesville'})
+CREATE (Northampton:School:HighSchool {name: 'Northampton'})
+CREATE (VaughnLewis:School:HighSchool {name: 'Vaughn Lewis'})
+CREATE (RobDeibler:School:HighSchool {name: 'Rob Deibler'})
+CREATE (Gateway:School:HighSchool {name: 'Gateway'})
+CREATE (DanRitter:School:HighSchool {name: 'Dan Ritter'})
+CREATE (Warwick:School:HighSchool {name: 'Warwick'})
+CREATE (RickRodriguez:School:HighSchool {name: 'Rick Rodriguez'})
+CREATE (ChrisPhelps:School:HighSchool {name: 'Chris Phelps'})
+CREATE (SamuelVBoerneChampion:School:HighSchool {name: 'Samuel V. Boerne Champion'})
+CREATE (SouthernLehigh:School:HighSchool {name: 'Southern Lehigh'})
+CREATE (ChuckKutz:School:HighSchool {name: 'Chuck Kutz'})
+CREATE (DeMathaCatholic:School:HighSchool {name: 'DeMatha Catholic'})
+CREATE (Selinsgrove:School:HighSchool {name: 'Selinsgrove'})
+CREATE (LarryFetkenheir:School:HighSchool {name: 'Larry Fetkenheir'})
+CREATE (JimStone:School:HighSchool {name: 'Jim Stone'})
+CREATE (ArchbishopWood:School:HighSchool {name: 'Archbishop Wood'})
+CREATE (RichRiechner:School:HighSchool {name: 'Rich Riechner'})
+CREATE (GrossePointeNorth:School:HighSchool {name: 'Grosse Pointe North'})
+CREATE (BattlefieldVa:School:HighSchool {name: 'Battlefield (Va.'})
+CREATE (JohnFortugna:School:HighSchool {name: 'John Fortugna'})
+CREATE (MarkBurrows:School:HighSchool {name: 'Mark Burrows'})
+CREATE (DanGouin:School:HighSchool {name: 'Dan Gouin'})
+CREATE (AlexVega:School:HighSchool {name: 'Alex Vega'})
+CREATE (Gaithersburg:School:HighSchool {name: 'Gaithersburg'})
+CREATE (PittsburghCentralCatholic:School:HighSchool {name: 'Pittsburgh Central Catholic'})
+CREATE (CarlKern:School:HighSchool {name: 'Carl Kern'})
+CREATE (WilliamPenn:School:HighSchool {name: 'William Penn'})
+CREATE (Northwest:School:HighSchool {name: 'Northwest'})
+CREATE (Bainbridge:School:HighSchool {name: 'Bainbridge'})
+CREATE (BenedictineCollegePrep:School:HighSchool {name: 'Benedictine College Prep'})
+CREATE (BillGiovino:School:HighSchool {name: 'Bill Giovino'})
+CREATE (DanMurphy:School:HighSchool {name: 'Dan Murphy'})
+CREATE (GuyLeCompte:School:HighSchool {name: 'Guy LeCompte'})
+CREATE (TonyKarcich:School:HighSchool {name: 'Tony Karcich'})
+CREATE (WarwickValley:School:HighSchool {name: 'Warwick Valley'})
+CREATE (KurtRichardson:School:HighSchool {name: 'Kurt Richardson'})
+CREATE (NazarethArea:School:HighSchool {name: 'Nazareth Area'})
+CREATE (BethlehemCatholic:School:HighSchool {name: 'Bethlehem Catholic'})
+CREATE (CardinalOHara:School:HighSchool {name: 'Cardinal OHara'})
+CREATE (RiverdaleBaptistSchool:School:HighSchool {name: 'Riverdale Baptist School'})
+CREATE (RayGionta:School:HighSchool {name: 'Ray Gionta'})
+CREATE (Cranford:School:HighSchool {name: 'Cranford'})
+CREATE (Windsor:School:HighSchool {name: 'Windsor'})
+CREATE (EastKentwood:School:HighSchool {name: 'East Kentwood'})
+CREATE (SouthernRegional:School:HighSchool {name: 'Southern Regional'})
+CREATE (Wissahickon:School:HighSchool {name: 'Wissahickon'})
+CREATE (Middletown:School:HighSchool {name: 'Middletown'})
+CREATE (JohnRosnick:School:HighSchool {name: 'John Rosnick'})
+CREATE (CentralMountain:School:HighSchool {name: 'Central Mountain'})
+CREATE (North:School:HighSchool {name: 'North'})
+CREATE (RedBankRegional:School:HighSchool {name: 'Red Bank Regional'})
+CREATE (Manalapan:School:HighSchool {name: 'Manalapan'})
+CREATE (NewRochelle:School:HighSchool {name: 'New Rochelle'})
+CREATE (PaulVI:School:HighSchool {name: 'Paul VI'})
+CREATE (Maury:School:HighSchool {name: 'Maury'})
+CREATE (WorcesterAcademy:School:HighSchool {name: 'Worcester Academy'})
+CREATE (KenLane:School:HighSchool {name: 'Ken Lane'})
+CREATE (BullisSchool:School:HighSchool {name: 'Bullis School'})
+CREATE (DannyPadron:School:HighSchool {name: 'Danny Padron'})
+CREATE (Grimsley:School:HighSchool {name: 'Grimsley'})
+CREATE (GovernorMifflin:School:HighSchool {name: 'Governor Mifflin'})
+CREATE (DavidHowle:School:HighSchool {name: 'David Howle'})
+CREATE (KenBussard:School:HighSchool {name: 'Ken Bussard'})
+CREATE (ArtWalker:School:HighSchool {name: 'Art Walker'})
+CREATE (HDWoodson:School:HighSchool {name: 'H.D. Woodson'})
+CREATE (SmyrnaDel:School:HighSchool {name: 'Smyrna (Del.)'})
+CREATE (TomFallaw:School:HighSchool {name: 'Tom Fallaw'})
+CREATE (DougDahms:School:HighSchool {name: 'Doug Dahms'})
+CREATE (Summit:School:HighSchool {name: 'Summit'})
+CREATE (BishopGormanNev:School:HighSchool {name: 'Bishop Gorman (Nev.)'})
+CREATE
+(AJWallace)-[:GRADUATED_FROM]->(DavidBradshaw),
+(ChazPowell)-[:GRADUATED_FROM]->(TomWaranavage),
+(BrandonBeachum)-[:GRADUATED_FROM]->(PJFecko),
+(ShawneyKersey)-[:GRADUATED_FROM]->(ZackValentine),
+(KnowledgeTimmons)-[:GRADUATED_FROM]->(MattOrtega),
+(JeromeHayes)-[:GRADUATED_FROM]->(RickRodriguez),
+(GrahamZug)-[:GRADUATED_FROM]->(MikeWilliams),
+(GeraldHodges)-[:GRADUATED_FROM]->(GlennHoward),
+(DerekMoye)-[:GRADUATED_FROM]->(GeneMatsook),
+(CurtisDrake)-[:GRADUATED_FROM]->(BrianFluck),
+(CedricJeffries)-[:GRADUATED_FROM]->(TonyDeRosa),
+(DLynn)-[:GRADUATED_FROM]->(ButchFord),
+(BrandonMosebyFelder)-[:GRADUATED_FROM]->(KevinWolfolk),
+(MichaelZordich)-[:GRADUATED_FROM]->(PJFecko),
+(AndrewQuarless)-[:GRADUATED_FROM]->(GregDidio),
+(NavorroBowman)-[:GRADUATED_FROM]->(NickLynch),
+(MatthewMcGloin)-[:GRADUATED_FROM]->(MikeDeAntona),
+(EvanLewis)-[:GRADUATED_FROM]->(SamLeedy),
+(StephonMorris)-[:GRADUATED_FROM]->(TomGreen),
+(KevinNewsome)-[:GRADUATED_FROM]->(RobertPrunty),
+(AndrewDailey)-[:GRADUATED_FROM]->(TomStacy),
+(MarkWedderburn)-[:GRADUATED_FROM]->(DanAlgeo),
+(AJPrice)-[:GRADUATED_FROM]->(JohnEllenberger),
+(MikeWallace)-[:GRADUATED_FROM]->(BobMilloy),
+(BaniGbadyu)-[:GRADUATED_FROM]->(DaveMencarini),
+(StevenHill)-[:GRADUATED_FROM]->(ColleyvilleHeritage),
+(JohnKelly)-[:GRADUATED_FROM]->(ShawnCarey),
+(SheltonMcCullough)-[:GRADUATED_FROM]->(AlbertHoward),
+(ShaneMcGregor)-[:GRADUATED_FROM]->(KenBussard),
+(DaryllClark)-[:GRADUATED_FROM]->(DanMurphy),
+(BrennanCoakley)-[:GRADUATED_FROM]->(KenRoberts),
+(NickSukay)-[:GRADUATED_FROM]->(WlliamColosimo),
+(JustinBrown)-[:GRADUATED_FROM]->(GeorgeKosanovich),
+(GarrettVenuto)-[:GRADUATED_FROM]->(EdRedmond),
+(DevonSmith)-[:GRADUATED_FROM]->(DomZaccarelli),
+(StephfonGreen)-[:GRADUATED_FROM]->(AlexVega),
+(TariqTongue)-[:GRADUATED_FROM]->(TomPugh),
+(EvanRoyster)-[:GRADUATED_FROM]->(TomVerbanic),
+(StephenObengAgyapong)-[:GRADUATED_FROM]->(AlexVega),
+(ShaineThompson)-[:GRADUATED_FROM]->(AlexVega),
+(DerekDay)-[:GRADUATED_FROM]->(GlenMcNamee),
+(MalcolmWillis)-[:GRADUATED_FROM]->(DougLamb),
+(AndrewGoodman)-[:GRADUATED_FROM]->(RonCohen),
+(DerrickThomas)-[:GRADUATED_FROM]->(TomGreen),
+(CurtisDukes)-[:GRADUATED_FROM]->(CoryMarsell),
+(JDMason)-[:GRADUATED_FROM]->(JeffVroman),
+(JacobFagnano)-[:GRADUATED_FROM]->(TomGravish),
+(DrewAstorino)-[:GRADUATED_FROM]->(JimWells),
+(DavidSoldner)-[:GRADUATED_FROM]->(MikeMelnyk),
+(KevinKowalishen)-[:GRADUATED_FROM]->(RobertSteckel),
+(AnthonyFera)-[:GRADUATED_FROM]->(RobinKirk),
+(JoshMatzkin)-[:GRADUATED_FROM]->(FrankSullivan),
+(NickDelligatti)-[:GRADUATED_FROM]->(JeffBell),
+(BrentCarter)-[:GRADUATED_FROM]->(RickPennypacker),
+(MichaelYancich)-[:GRADUATED_FROM]->(EdDalton),
+(ChristianKuntz)-[:GRADUATED_FROM]->(JeffBoger),
+(NathanStupar)-[:GRADUATED_FROM]->(AlWolski),
+(JesseAlfreno)-[:GRADUATED_FROM]->(GroveCity),
+(PatZerbe)-[:GRADUATED_FROM]->(DougDahms),
+(KyleJohnson)-[:GRADUATED_FROM]->(CJHoffman),
+(CollinWagner)-[:GRADUATED_FROM]->(AlWolski),
+(JoeSuhey)-[:GRADUATED_FROM]->(JohnHolecek),
+(TylerAhrenhold)-[:GRADUATED_FROM]->(RichardKnox),
+(AndreDupree)-[:GRADUATED_FROM]->(KenLane),
+(TomGolarz)-[:GRADUATED_FROM]->(JohnSlinkard),
+(AndrewPitz)-[:GRADUATED_FROM]->(RandyScott),
+(JeremyBoone)-[:GRADUATED_FROM]->(RichLichtel),
+(MichaelMauti)-[:GRADUATED_FROM]->(GuyLeCompte),
+(JoshHull)-[:GRADUATED_FROM]->(MartinTobias),
+(KevionLatham)-[:GRADUATED_FROM]->(KevinGillespie),
+(SeanLee)-[:GRADUATED_FROM]->(JimRender),
+(StephenJoseph)-[:GRADUATED_FROM]->(JeffWasilchak),
+(JordanHill)-[:GRADUATED_FROM]->(RobDeibler),
+(KenPollock)-[:GRADUATED_FROM]->(CarlKern),
+(ChrisColasanti)-[:GRADUATED_FROM]->(AlbertFracassa),
+(RyanBreen)-[:GRADUATED_FROM]->(KurtRichardson),
+(DeOntaePannell)-[:GRADUATED_FROM]->(BrendanFlaherty),
+(JonathanStewart)-[:GRADUATED_FROM]->(DanielConwell),
+(BrianIrvin)-[:GRADUATED_FROM]->(SamLeedy),
+(JonRohrbaugh)-[:GRADUATED_FROM]->(BruceStrunk),
+(JamesFleet)-[:GRADUATED_FROM]->(RichardDelaney),
+(MattStankiewitch)-[:GRADUATED_FROM]->(ChuckKutz),
+(TomMcEowen)-[:GRADUATED_FROM]->(MarkSchmidt),
+(MichaelFuhrman)-[:GRADUATED_FROM]->(ArtWalker),
+(EricLatimore)-[:GRADUATED_FROM]->(MarkDelpercio),
+(EmeryEtter)-[:GRADUATED_FROM]->(DaveCarruthers),
+(AdamGress)-[:GRADUATED_FROM]->(TimBrennan),
+(PeteMassaro)-[:GRADUATED_FROM]->(RayGionta),
+(TyHowle)-[:GRADUATED_FROM]->(DavidHowle),
+(StefenWisniewski)-[:GRADUATED_FROM]->(TerryTrotten),
+(FrankFigueroa)-[:GRADUATED_FROM]->(VaughnLewis),
+(MarkArcidiacono)-[:GRADUATED_FROM]->(GilBrooks),
+(JohnUrschel)-[:GRADUATED_FROM]->(BrandonHarris),
+(QuinnBarham)-[:GRADUATED_FROM]->(RayHarrison),
+(DougKlopacz)-[:GRADUATED_FROM]->(TonyKarcich),
+(AnthonyTortorelli)-[:GRADUATED_FROM]->(JoeGallagher),
+(DevonStill)-[:GRADUATED_FROM]->(DanRitter),
+(NerrawMcCormack)-[:GRADUATED_FROM]->(JohnAnselmo),
+(DennisLandolt)-[:GRADUATED_FROM]->(JerryMcConnell),
+(JohnnieTroutman)-[:GRADUATED_FROM]->(JohnRosnick),
+(EricShrive)-[:GRADUATED_FROM]->(MikeDeAntona),
+(NateCadogan)-[:GRADUATED_FROM]->(CurtClifford),
+(LouEliades)-[:GRADUATED_FROM]->(SalSpompanato),
+(MikeFarrell)-[:GRADUATED_FROM]->(DaveHavern),
+(AkoPoti)-[:GRADUATED_FROM]->(GeorgeRush),
+(AndrewSzczerba)-[:GRADUATED_FROM]->(BillDiNardo),
+(JackCrawford)-[:GRADUATED_FROM]->(DennisScunderi),
+(RyanScherer)-[:GRADUATED_FROM]->(DaveDlugosz),
+(MickeyShuler)-[:GRADUATED_FROM]->(ToddStuter),
+(BrettBrackett)-[:GRADUATED_FROM]->(RobRadice),
+(PatrickMauti)-[:GRADUATED_FROM]->(RodneyCorkern),
+(OllieOgbu)-[:GRADUATED_FROM]->(WilliamChaplick),
+(GarryGilliam)-[:GRADUATED_FROM]->(BobGuyer),
+(SeanLuchnick)-[:GRADUATED_FROM]->(DannyPadron),
+(SeanStanley)-[:GRADUATED_FROM]->(KregKephart),
+(JaredOdrick)-[:GRADUATED_FROM]->(BillGiovino),
+(ChimaezeOkoli)-[:GRADUATED_FROM]->(RobertJackson),
+(JamesTerry)-[:GRADUATED_FROM]->(CordieGreenlea),
+(MikelBerry)-[:GRADUATED_FROM]->(MikeGolden),
+(JRRefice)-[:GRADUATED_FROM]->(GeorgeHowanitz),
+(MattKenney)-[:GRADUATED_FROM]->(AlWolski),
+(BrandonWare)-[:GRADUATED_FROM]->(GeorgeChaump),
+(RobBolden)-[:GRADUATED_FROM]->(GeorgePorritt),
+(PaulJones)-[:GRADUATED_FROM]->(JasonRuscitto),
+(KhairiFortt)-[:GRADUATED_FROM]->(KevinJones),
+(AlexKenney)-[:GRADUATED_FROM]->(AlWolski),
+(JonathanDuckett)-[:GRADUATED_FROM]->(JeffWeachter),
+(SilasRedd)-[:GRADUATED_FROM]->(DanGouin),
+(RussellNye)-[:GRADUATED_FROM]->(AlWolski),
+(RyanKeiser)-[:GRADUATED_FROM]->(Selinsgrove),
+(DakotaRoyer)-[:GRADUATED_FROM]->(MikeWilliams),
+(JesseValle)-[:GRADUATED_FROM]->(ShalerArea),
+(GlennCarson)-[:GRADUATED_FROM]->(CharlesDonohueSr),
+(ZachZwinak)-[:GRADUATED_FROM]->(Linganore),
+(MikeHull)-[:GRADUATED_FROM]->(CanonMcMillan),
+(AlexButterworth)-[:GRADUATED_FROM]->(RonQualls),
+(AJFirestone)-[:GRADUATED_FROM]->(DanWalker),
+(PatrickChristie)-[:GRADUATED_FROM]->(MattHeiser),
+(ChimaOkoli)-[:GRADUATED_FROM]->(RobertJackson),
+(TomRicketts)-[:GRADUATED_FROM]->(ArtWalker),
+(AlexMateas)-[:GRADUATED_FROM]->(AndyMcEvoy),
+(MilesDieffenbach)-[:GRADUATED_FROM]->(FoxChapel),
+(KhamroneKolb)-[:GRADUATED_FROM]->(JimPoythress),
+(EvanHailes)-[:GRADUATED_FROM]->(RichardMorgan),
+(LukeGraham)-[:GRADUATED_FROM]->(ArtTragesser),
+(KevinHaplea)-[:GRADUATED_FROM]->(JohnMattes),
+(BradBars)-[:GRADUATED_FROM]->(MontgomeryBellAcademy),
+(KyleBaublitz)-[:GRADUATED_FROM]->(BradLivingston),
+(CJOlaniyan)-[:GRADUATED_FROM]->(WarrenMott),
+(DaQuanJones)-[:GRADUATED_FROM]->(FredDeinhardt),
+(CodyCastor)-[:GRADUATED_FROM]->(JohnFortugna),
+(AdrianAmos)-[:GRADUATED_FROM]->(),
+(BillBelton)-[:GRADUATED_FROM]->(WinslowTownship),
+(AllenRobinson)-[:GRADUATED_FROM]->(GeorgePorritt),
+(JohnCabot)-[:GRADUATED_FROM]->(ScottAshby),
+(TimBuckley)-[:GRADUATED_FROM]->(HenryTravathan),
+(PatrickFlanagan)-[:GRADUATED_FROM]->(GreySimpson),
+(DeionBarnes)-[:GRADUATED_FROM]->(Northeast),
+(MattMarcincin)-[:GRADUATED_FROM]->(JimStone),
+(TJRhattigan)-[:GRADUATED_FROM]->(NeuquaValley),
+(BrianFriend)-[:GRADUATED_FROM]->(TerryTotten),
+(KyleLucas)-[:GRADUATED_FROM]->(ZacWynkoop),
+(JeffCully)-[:GRADUATED_FROM]->(JacqueDemattio),
+(JohnHornyak)-[:GRADUATED_FROM]->(ClintAlexander),
+(DeronThompson)-[:GRADUATED_FROM]->(Warwick),
+(BenKline)-[:GRADUATED_FROM]->(Dallastown),
+(BryceWilson)-[:GRADUATED_FROM]->(ToddStuter),
+(PJByers)-[:GRADUATED_FROM]->(ArtTragesser),
+(JordanKerner)-[:GRADUATED_FROM]->(JimBrinling),
+(ShanePhillips)-[:GRADUATED_FROM]->(MichaelSayer),
+(DrewBoyce)-[:GRADUATED_FROM]->(Northwest),
+(AngeloMangiro)-[:GRADUATED_FROM]->(Roxbury),
+(RyanNowicki)-[:GRADUATED_FROM]->(LarryFetkenheir),
+(DonovanSmith)-[:GRADUATED_FROM]->(OwingsMills),
+(KevinBlanchard)-[:GRADUATED_FROM]->(GaryJoseph),
+(MattZanellato)-[:GRADUATED_FROM]->(LakeBraddockSecondary),
+(MattLehman)-[:GRADUATED_FROM]->(RobertFolk),
+(KyleCarter)-[:GRADUATED_FROM]->(WilliamPenn),
+(AnthonyAlosi)-[:GRADUATED_FROM]->(DaveDudeck),
+(ShawnOakman)-[:GRADUATED_FROM]->(SamMormando),
+(CarlNassib)-[:GRADUATED_FROM]->(MalvernPrep),
+(SamFicken)-[:GRADUATED_FROM]->(Valparaiso),
+(AnthonyZettel)-[:GRADUATED_FROM]->(OgemawHeights),
+(JakeKiley)-[:GRADUATED_FROM]->(NewHampton),
+(DaQuanDavis)-[:GRADUATED_FROM]->(),
+(NyeemWartman)-[:GRADUATED_FROM]->(ValleyView),
+(EugeneLewis)-[:GRADUATED_FROM]->(PatKeating),
+(GaryWooten)-[:GRADUATED_FROM]->(HialeahSenior),
+(StevenBench)-[:GRADUATED_FROM]->(TomFallaw),
+(TylerLucas)-[:GRADUATED_FROM]->(DuffyBesch),
+(JordanLucas)-[:GRADUATED_FROM]->(NewRochelle),
+(DevinPryor)-[:GRADUATED_FROM]->(AlconburyEngland),
+(JesseJames)-[:GRADUATED_FROM]->(SouthAllegheny),
+(MalikGolden)-[:GRADUATED_FROM]->(CheshireAcademy),
+(BryantHarper)-[:GRADUATED_FROM]->(McKeesport),
+(TrevorWilliams)-[:GRADUATED_FROM]->(),
+(AkeelLynch)-[:GRADUATED_FROM]->(StFrancisNY),
+(ReynoldsParthemore)-[:GRADUATED_FROM]->(JimCantifio),
+(CharlesIdemudia)-[:GRADUATED_FROM]->(GrossePointeNorth),
+(JoeBaker)-[:GRADUATED_FROM]->(PatClark),
+(JackHaffner)-[:GRADUATED_FROM]->(),
+(ColinBryan)-[:GRADUATED_FROM]->(MattGrohal),
+(DominicSalomone)-[:GRADUATED_FROM]->(Northern),
+(AdamCole)-[:GRADUATED_FROM]->(AaronKrepps),
+(KevinDiSanto)-[:GRADUATED_FROM]->(AlWolski),
+(AnthonyStanko)-[:GRADUATED_FROM]->(RichardAngle),
+(BrentSmith)-[:GRADUATED_FROM]->(RichRiechner),
+(DerekDowrey)-[:GRADUATED_FROM]->(JohnHandley),
+(WendyLaurent)-[:GRADUATED_FROM]->(TheHunSchool),
+(JoeMarvin)-[:GRADUATED_FROM]->(AaronBrady),
+(BryanDavie)-[:GRADUATED_FROM]->(TomGreen),
+(BrianGaia)-[:GRADUATED_FROM]->(GilmanSchool),
+(DeshawnBaker)-[:GRADUATED_FROM]->(WilliamPenn),
+(BrentWilkerson)-[:GRADUATED_FROM]->(DeMathaCatholic),
+(TyroneSmith)-[:GRADUATED_FROM]->(Langley),
+(JonathanWarner)-[:GRADUATED_FROM]->(JonEagle),
+(AlbertHall)-[:GRADUATED_FROM]->(WarwickValley),
+(EvanSchwan)-[:GRADUATED_FROM]->(CentralDauphin),
+(AustinJohnson)-[:GRADUATED_FROM]->(StAugustinePrep),
+(DaeSeanHamilton)-[:GRADUATED_FROM]->(MountainView),
+(AustinWhipple)-[:GRADUATED_FROM]->(ChrisPhelps),
+(TylerFerguson)-[:GRADUATED_FROM]->(RobertDougherty),
+(ChrisGeiss)-[:GRADUATED_FROM]->(GreatValley),
+(GenoLewis)-[:GRADUATED_FROM]->(WyomingValleyWest),
+(JackSeymour)-[:GRADUATED_FROM]->(OrlandoLowry),
+(JordanSmith)-[:GRADUATED_FROM]->(HDWoodson),
+(JesseMerise)-[:GRADUATED_FROM]->(Hillside),
+(KaseyGaines)-[:GRADUATED_FROM]->(Grayson),
+(ChristianHackenberg)-[:GRADUATED_FROM]->(ForkUnionMilitaryAcademy),
+(DJCrook)-[:GRADUATED_FROM]->(WorcesterAcademy),
+(DadPoquie)-[:GRADUATED_FROM]->(),
+(RichyAnderson)-[:GRADUATED_FROM]->(BenWright),
+(BrianTomasetti)-[:GRADUATED_FROM]->(OldForge),
+(AnthonySmith)-[:GRADUATED_FROM]->(PopeJohnXXIII),
+(VonWalker)-[:GRADUATED_FROM]->(CentralMountain),
+(BrandonBell)-[:GRADUATED_FROM]->(Oakcrest),
+(AdamGeiger)-[:GRADUATED_FROM]->(Trinity),
+(ColinHarrop)-[:GRADUATED_FROM]->(Wilson),
+(BrandonJohnson)-[:GRADUATED_FROM]->(Middletown),
+(KyleSearfoss)-[:GRADUATED_FROM]->(ChadWeaver),
+(ChipChiappialle)-[:GRADUATED_FROM]->(JoeHamilton),
+(JordanDudas)-[:GRADUATED_FROM]->(Girard),
+(MatthewBaney)-[:GRADUATED_FROM]->(),
+(HunterCrafford)-[:GRADUATED_FROM]->(AydenGrifton),
+(ChrisGulla)-[:GRADUATED_FROM]->(TomsRiverNorth),
+(ParkerCothren)-[:GRADUATED_FROM]->(HazelGreen),
+(CarterHenderson)-[:GRADUATED_FROM]->(GregBotta),
+(TylerYazujian)-[:GRADUATED_FROM]->(SpringFord),
+(BrandonSmith)-[:GRADUATED_FROM]->(Lewisburg),
+(RyanAmmerman)-[:GRADUATED_FROM]->(KevinPelligrini),
+(MikeWiand)-[:GRADUATED_FROM]->(MifflinburgArea),
+(CurtisCothran)-[:GRADUATED_FROM]->(CouncilRockNorth),
+(SeanCorcoran)-[:GRADUATED_FROM]->(BishopMcNamara),
+(TannerHartman)-[:GRADUATED_FROM]->(FrankRoccoJr),
+(AndrewNelson)-[:GRADUATED_FROM]->(Hershey),
+(ZachLadonis)-[:GRADUATED_FROM]->(BerwickArea),
+(AndrewTerlingo)-[:GRADUATED_FROM]->(SouthernLehigh),
+(BrendanMahon)-[:GRADUATED_FROM]->(Randolph),
+(AustinFiedler)-[:GRADUATED_FROM]->(MarkBurrows),
+(EvanGalimberti)-[:GRADUATED_FROM]->(),
+(TomDevenney)-[:GRADUATED_FROM]->(Warwick),
+(AdamBreneman)-[:GRADUATED_FROM]->(CedarCliff),
+(GreggGarrity)-[:GRADUATED_FROM]->(NorthAllegheny),
+(LukeVadas)-[:GRADUATED_FROM]->(),
+(BrandonFelder)-[:GRADUATED_FROM]->(KevinWolfolk),
+(TomPancoast)-[:GRADUATED_FROM]->(Unionville),
+(GarrettSickels)-[:GRADUATED_FROM]->(RedBankRegional),
+(ChristianCampbell)-[:GRADUATED_FROM]->(Central),
+(MarcusAllen)-[:GRADUATED_FROM]->(DrHenryAWiseJr),
+(DeAndreThompkins)-[:GRADUATED_FROM]->(Swansboro),
+(KoaFarmer)-[:GRADUATED_FROM]->(NotreDame),
+(TraceMcSorley)-[:GRADUATED_FROM]->(BriarWoods),
+(ChrisGodwin)-[:GRADUATED_FROM]->(Middletown),
+(SaeedBlacknall)-[:GRADUATED_FROM]->(Manalapan),
+(GrantHaley)-[:GRADUATED_FROM]->(TheLovettSchool),
+(BillyFessler)-[:GRADUATED_FROM]->(ErieCathedralPrep),
+(DaquanWorley)-[:GRADUATED_FROM]->(Coatesville),
+(JohnathanThomas)-[:GRADUATED_FROM]->(StJohnsPrep),
+(AmaniOruwariye)-[:GRADUATED_FROM]->(Gaither),
+(MarkAllen)-[:GRADUATED_FROM]->(DeMathaCatholic),
+(NickScott)-[:GRADUATED_FROM]->(Fairfax),
+(JavonTurner)-[:GRADUATED_FROM]->(DownersGroveSouth),
+(TroyApke)-[:GRADUATED_FROM]->(MountLebanon),
+(SethFord)-[:GRADUATED_FROM]->(Clearfield),
+(JoeBerg)-[:GRADUATED_FROM]->(CarmelCatholic),
+(ColeChiappialle)-[:GRADUATED_FROM]->(Blackhawk),
+(EvanSteinfeld)-[:GRADUATED_FROM]->(Milburn),
+(KyleAlston)-[:GRADUATED_FROM]->(Robbinsville),
+(DesiDavis)-[:GRADUATED_FROM]->(Harriton),
+(NeilBodley)-[:GRADUATED_FROM]->(Juniata),
+(JasonCabinda)-[:GRADUATED_FROM]->(HunterdonCentral),
+(LouDibileo)-[:GRADUATED_FROM]->(WestScranton),
+(KyleVasey)-[:GRADUATED_FROM]->(Wallenpaupack),
+(TroyReeder)-[:GRADUATED_FROM]->(SalesianumSchool),
+(KylerDiehl)-[:GRADUATED_FROM]->(NorthernBedford),
+(WillEikenberry)-[:GRADUATED_FROM]->(Andover),
+(ChanceSorrell)-[:GRADUATED_FROM]->(Middletown),
+(NoahBeh)-[:GRADUATED_FROM]->(ScrantonPrep),
+(AdamDeBoef)-[:GRADUATED_FROM]->(),
+(SteveMyers)-[:GRADUATED_FROM]->(OwenJRoberts),
+(BrendanBrosnan)-[:GRADUATED_FROM]->(MaineSouth),
+(ChaszWright)-[:GRADUATED_FROM]->(MilfordAcademy),
+(CharlieShuman)-[:GRADUATED_FROM]->(PittsfordSutherland),
+(MikeGesicki)-[:GRADUATED_FROM]->(SouthernRegional),
+(TarowBarney)-[:GRADUATED_FROM]->(Bainbridge),
+(NickBouhermi)-[:GRADUATED_FROM]->(PhillipsburgOsceola),
+(JoeHolmes)-[:GRADUATED_FROM]->(ScrantonPrep),
+(DanielPasquariello)-[:GRADUATED_FROM]->(),
+(RobbyLiebel)-[:GRADUATED_FROM]->(IMGAcademy),
+(AntoineWhite)-[:GRADUATED_FROM]->(Millville),
+(TorrenceBrown)-[:GRADUATED_FROM]->(TuscaloosaAcademy),
+(LukeHayek)-[:GRADUATED_FROM]->(Shelby),
+(TroyStivason)-[:GRADUATED_FROM]->(AthensArea),
+(JoeyJulius)-[:GRADUATED_FROM]->(LowerDauphin),
+(TommyStevens)-[:GRADUATED_FROM]->(DecaturCentral),
+(NyeemWartmanWhite)-[:GRADUATED_FROM]->(ValleyView),
+(AndreRobinson)-[:GRADUATED_FROM]->(BishopMcDevitt),
+(GaryWootenJr)-[:GRADUATED_FROM]->(HialeahSenior),
+(BrandonPolk)-[:GRADUATED_FROM]->(BriarWoods),
+(JarvisMiller)-[:GRADUATED_FROM]->(EastGranby),
+(JohnPetrishen)-[:GRADUATED_FROM]->(PittsburghCentralCatholic),
+(JacksonErdmann)-[:GRADUATED_FROM]->(Rosemount),
+(GarrettTaylor)-[:GRADUATED_FROM]->(SaintChristophers),
+(JonathanHolland)-[:GRADUATED_FROM]->(TheBullisSchool),
+(SaquonBarkley)-[:GRADUATED_FROM]->(Whitehall),
+(JohnReid)-[:GRADUATED_FROM]->(StJosephsPrep),
+(KevinGivens)-[:GRADUATED_FROM]->(AltoonaArea),
+(GordonBentley)-[:GRADUATED_FROM]->(Wissahickon),
+(JakeCooper)-[:GRADUATED_FROM]->(ArchbishopWood),
+(JanJohnson)-[:GRADUATED_FROM]->(GovernorMifflin),
+(TroyShorts)-[:GRADUATED_FROM]->(Woodbury),
+(JoshMcPhearson)-[:GRADUATED_FROM]->(AnnapolisAreaChristian),
+(MannyBowen)-[:GRADUATED_FROM]->(Barnegat),
+(ColinCastagna)-[:GRADUATED_FROM]->(Barrington),
+(ShareefMiller)-[:GRADUATED_FROM]->(GeorgeWashington),
+(RyanBates)-[:GRADUATED_FROM]->(ArchbishopWood),
+(RobertWindsor)-[:GRADUATED_FROM]->(FondDuLac),
+(KamCarter)-[:GRADUATED_FROM]->(Gaithersburg),
+(StevenGonzalez)-[:GRADUATED_FROM]->(UnionCity),
+(JackLasher)-[:GRADUATED_FROM]->(Benedictine),
+(ZachSimpson)-[:GRADUATED_FROM]->(HollidaysburgArea),
+(RyanMonk)-[:GRADUATED_FROM]->(Dallas),
+(KevinReihner)-[:GRADUATED_FROM]->(ScrantonPrep),
+(AdamDeBoef)-[:GRADUATED_FROM]->(),
+(ParisPalmer)-[:GRADUATED_FROM]->(),
+(SterlingJenkins)-[:GRADUATED_FROM]->(Baldwin),
+(TylerShoop)-[:GRADUATED_FROM]->(FatherRyan),
+(NickBowers)-[:GRADUATED_FROM]->(KittanningSenior),
+(JuwanJohnson)-[:GRADUATED_FROM]->(Glassboro),
+(IrvinCharles)-[:GRADUATED_FROM]->(PaulVI),
+(DanChisena)-[:GRADUATED_FROM]->(DowningtownEast),
+(NickBoumerhi)-[:GRADUATED_FROM]->(PhillipsburgOsceola),
+(TylerDavis)-[:GRADUATED_FROM]->(North),
+(RyanBuchholz)-[:GRADUATED_FROM]->(GreatValley),
+(NickCox)-[:GRADUATED_FROM]->(Jesuit),
+(JordanWombacker)-[:GRADUATED_FROM]->(Hickory),
+(JakeZembiec)-[:GRADUATED_FROM]->(AquinasInstitute),
+(ZechMcPhearson)-[:GRADUATED_FROM]->(RiverdaleBaptistSchool),
+(MichaelShuster)-[:GRADUATED_FROM]->(CampHill),
+(MilesSanders)-[:GRADUATED_FROM]->(WoodlandHills),
+(TJJohnson)-[:GRADUATED_FROM]->(Euclid),
+(CamBrown)-[:GRADUATED_FROM]->(BullisSchool),
+(ChristopherWelde)-[:GRADUATED_FROM]->(CouncilRockNorth),
+(IrvinePaye)-[:GRADUATED_FROM]->(WestOrange),
+(MitchellVallone)-[:GRADUATED_FROM]->(ElkCountyCatholic),
+(ShaneSimmons)-[:GRADUATED_FROM]->(DeMatha),
+(FrankDiLeo)-[:GRADUATED_FROM]->(SaintIgnatiusCollegePrep),
+(NickEury)-[:GRADUATED_FROM]->(LakeLehman),
+(EllisonJordan)-[:GRADUATED_FROM]->(GilmanSchool),
+(ShakaToney)-[:GRADUATED_FROM]->(ImhotepCharter),
+(JoeDuMond)-[:GRADUATED_FROM]->(StJosephsPrep),
+(WillBlair)-[:GRADUATED_FROM]->(Hempfield),
+(DanielJoseph)-[:GRADUATED_FROM]->(LakeForestAcademyIll),
+(AlexGellerstedt)-[:GRADUATED_FROM]->(DublinCoffman),
+(JasonVranic)-[:GRADUATED_FROM]->(NiagaraWheatfield),
+(AntonioShelton)-[:GRADUATED_FROM]->(WestervilleNorth),
+(TyrellChavis)-[:GRADUATED_FROM]->(),
+(MichalMenet)-[:GRADUATED_FROM]->(ExeterTownshipSenior),
+(ConnorMcGovern)-[:GRADUATED_FROM]->(LakeLehman),
+(HunterKelly)-[:GRADUATED_FROM]->(Neshaminy),
+(WillFries)-[:GRADUATED_FROM]->(Cranford),
+(DannyDalton)-[:GRADUATED_FROM]->(Marshfield),
+(StevenGrampp)-[:GRADUATED_FROM]->(EastStroudsburgNorth),
+(IsaacLutz)-[:GRADUATED_FROM]->(BerksCatholic),
+(CodyHodgens)-[:GRADUATED_FROM]->(Robinson),
+(DaeLunDarien)-[:GRADUATED_FROM]->(Dunbar),
+(ColtonMaxwell)-[:GRADUATED_FROM]->(Northampton),
+(AlexBarbir)-[:GRADUATED_FROM]->(SouthForsyth),
+(BlakeGillikin)-[:GRADUATED_FROM]->(TheWestminsterSchools),
+(ImmanuelIyke)-[:GRADUATED_FROM]->(ParsippanyHills),
+(BrenonThrift)-[:GRADUATED_FROM]->(),
+(KJHamler)-[:GRADUATED_FROM]->(IMGAcademyFla),
+(DonovanJohnson)-[:GRADUATED_FROM]->(CassTech),
+(TariqCastroFields)-[:GRADUATED_FROM]->(RiverdaleBaptistSchool),
+(MacHippenhammer)-[:GRADUATED_FROM]->(RNelsonSnider),
+(EllisBrooks)-[:GRADUATED_FROM]->(BenedictineCollegePrep),
+(SeanClifford)-[:GRADUATED_FROM]->(SaintXavier),
+(JabariButler)-[:GRADUATED_FROM]->(BishopGormanNev),
+(DJBrown)-[:GRADUATED_FROM]->(Creekside),
+(BrelinFaisonWalden)-[:GRADUATED_FROM]->(Grimsley),
+(JonathanSutherland)-[:GRADUATED_FROM]->(EpiscopalVa),
+(JourneyBrown)-[:GRADUATED_FROM]->(Meadville),
+(JustinNeff)-[:GRADUATED_FROM]->(CentralMountain),
+(DrewHartlaub)-[:GRADUATED_FROM]->(SouthWestern),
+(LamontWade)-[:GRADUATED_FROM]->(Clairton),
+(JoeArcangelo)-[:GRADUATED_FROM]->(AbingtonHeights),
+(BrailynFranklin)-[:GRADUATED_FROM]->(BattlefieldVa),
+(MaxChizmar)-[:GRADUATED_FROM]->(MarsArea),
+(FredHansard)-[:GRADUATED_FROM]->(TheHunSchool),
+(EvanPresta)-[:GRADUATED_FROM]->(CathedralPrep),
+(CJThorpe)-[:GRADUATED_FROM]->(CentralCatholic),
+(RobbieMartin)-[:GRADUATED_FROM]->(SaintJosephRegional),
+(MikeMiranda)-[:GRADUATED_FROM]->(StowMunroe),
+(DesHolmes)-[:GRADUATED_FROM]->(CardinalOHara),
+(JustinWeller)-[:GRADUATED_FROM]->(Wilson),
+(CamSullivanBrown)-[:GRADUATED_FROM]->(SaintVincentPallotti),
+(AlexHoenstine)-[:GRADUATED_FROM]->(Central),
+(DamionBarber)-[:GRADUATED_FROM]->(Harrisburg),
+(ChrisStoll)-[:GRADUATED_FROM]->(StFrancisDeSales),
+(CoreyBolds)-[:GRADUATED_FROM]->(ParamusCatholic),
+(JoeCalcagno)-[:GRADUATED_FROM]->(Fenwick),
+(CarsonLandis)-[:GRADUATED_FROM]->(Emmaus),
+(MikeCurry)-[:GRADUATED_FROM]->(Phillipsburg),
+(DanVasey)-[:GRADUATED_FROM]->(Wallenpaupack),
+(NickDeAngelis)-[:GRADUATED_FROM]->(Ramsey),
+(YeturGrossMatos)-[:GRADUATED_FROM]->(Chancellor),
+(RickySlade)-[:GRADUATED_FROM]->(CDHylton),
+(JahanDotson)-[:GRADUATED_FROM]->(NazarethArea),
+(JustinShorter)-[:GRADUATED_FROM]->(SouthBrunswick),
+(MicahParsons)-[:GRADUATED_FROM]->(Harrisburg),
+(GraysonKline)-[:GRADUATED_FROM]->(Warwick),
+(WillLevis)-[:GRADUATED_FROM]->(Xavier),
+(TrentGordon)-[:GRADUATED_FROM]->(Manvel),
+(AeneasHawkins)-[:GRADUATED_FROM]->(Moeller),
+(CodyRomano)-[:GRADUATED_FROM]->(BlairAcademy),
+(JaysonOweh)-[:GRADUATED_FROM]->(BlairAcademy),
+(HenryFessler)-[:GRADUATED_FROM]->(CathedralPrep),
+(CJHolmes)-[:GRADUATED_FROM]->(CheshireAcademy),
+(JesseLuketa)-[:GRADUATED_FROM]->(MercyhurstPrepPa),
+(TrevorBaker)-[:GRADUATED_FROM]->(LewisSMillsConn),
+(CameronPica)-[:GRADUATED_FROM]->(Hickory),
+(CharlieKatshir)-[:GRADUATED_FROM]->(CumberlandValley),
+(NickTarburton)-[:GRADUATED_FROM]->(Pennridge),
+(CadePollard)-[:GRADUATED_FROM]->(SamuelVBoerneChampion),
+(WIllKnutsson)-[:GRADUATED_FROM]->(McDonoghSchool),
+(RasheedWalker)-[:GRADUATED_FROM]->(NorthPoint),
+(KalebKonigus)-[:GRADUATED_FROM]->(LakeLehman),
+(CollinDeBoef)-[:GRADUATED_FROM]->(StateCollegeArea),
+(JuiceScruggs)-[:GRADUATED_FROM]->(CathedralPrepPa),
+(BryceEffner)-[:GRADUATED_FROM]->(MeteaValley),
+(ZackKuntz)-[:GRADUATED_FROM]->(CampHill),
+(DanielGeorge)-[:GRADUATED_FROM]->(OxonHill),
+(PatFreiermuth)-[:GRADUATED_FROM]->(BrooksSchool),
+(JudgeCulpepper)-[:GRADUATED_FROM]->(HBPlant),
+(BrandonClark)-[:GRADUATED_FROM]->(StateCollegeArea),
+(RafaelCheca)-[:GRADUATED_FROM]->(StJohnsCollegeHS),
+(JakePinegar)-[:GRADUATED_FROM]->(AnkenyCentennial),
+(PJMustipher)-[:GRADUATED_FROM]->(McDonoghSchool),
+(DonnellDix)-[:GRADUATED_FROM]->(Wicomico),
+(VladHilling)-[:GRADUATED_FROM]->(Hollidaysburg),
+(MattAloni)-[:GRADUATED_FROM]->(Plainedge),
+(KevinCahill)-[:GRADUATED_FROM]->(Summit),
+(JustinTobin)-[:GRADUATED_FROM]->(Neshaminy),
+(KeatonEllis)-[:GRADUATED_FROM]->(StateCollegeArea),
+(JaquanBrisker)-[:GRADUATED_FROM]->(Gateway),
+(JohnDunmore)-[:GRADUATED_FROM]->(ChaminadeMadonnaCollegePrep),
+(MarquisWilson)-[:GRADUATED_FROM]->(Windsor),
+(JoeyPorterJr)-[:GRADUATED_FROM]->(NorthAlleghenyPa),
+(TaQuanRoberson)-[:GRADUATED_FROM]->(DePaulCatholic),
+(LanceDixon)-[:GRADUATED_FROM]->(WestBloomfield),
+(TJJones)-[:GRADUATED_FROM]->(Columbia),
+(MichaelJohnsonJr)-[:GRADUATED_FROM]->(Sheldon),
+(AdisaIsaac)-[:GRADUATED_FROM]->(Canarsie),
+(NoahCain)-[:GRADUATED_FROM]->(IMGAcademyFla),
+(TylerRudolph)-[:GRADUATED_FROM]->(StThomasMore),
+(WestonCarr)-[:GRADUATED_FROM]->(Benicia),
+(DaequanHardy)-[:GRADUATED_FROM]->(PennHills),
+(JadenSeider)-[:GRADUATED_FROM]->(StateCollegeArea),
+(DevynFord)-[:GRADUATED_FROM]->(NorthStafford),
+(TaweTawe)-[:GRADUATED_FROM]->(Hillsborough),
+(DenverLight)-[:GRADUATED_FROM]->(TyroneArea),
+(DylanFarronato)-[:GRADUATED_FROM]->(LewisburgArea),
+(CoreyMelzer)-[:GRADUATED_FROM]->(NorthAllegheny),
+(MakaiSelf)-[:GRADUATED_FROM]->(IMGAcademyFla),
+(RobbieDwyer)-[:GRADUATED_FROM]->(WyomingValleyWest),
+(AustinSullivan)-[:GRADUATED_FROM]->(MinisinkValley),
+(JosephAppiahDarkwa)-[:GRADUATED_FROM]->(DonBoscoGymnasium),
+(TommyFriberg)-[:GRADUATED_FROM]->(StateCollegeArea),
+(AlexFurmanek)-[:GRADUATED_FROM]->(NorthEast),
+(HakeemBeamon)-[:GRADUATED_FROM]->(Manchester),
+(DaltonDaddona)-[:GRADUATED_FROM]->(BethlehemCatholic),
+(BlakeZalar)-[:GRADUATED_FROM]->(ShamokinArea),
+(AnthonyWhigan)-[:GRADUATED_FROM]->(GreatMills),
+(JustinKopko)-[:GRADUATED_FROM]->(HanoverArea),
+(SalWormley)-[:GRADUATED_FROM]->(SmyrnaDel),
+(CaedanWallace)-[:GRADUATED_FROM]->(TheHunSchool),
+(BenjaminWilson)-[:GRADUATED_FROM]->(Uniontown),
+(AlecBerger)-[:GRADUATED_FROM]->(McKinney),
+(BrentonStrange)-[:GRADUATED_FROM]->(Parkersburg),
+(DvonEllies)-[:GRADUATED_FROM]->(McDonoghSchool),
+(SmithVilbert)-[:GRADUATED_FROM]->(StJosephsRegionalNJ),
+(AnthonyDaSilva)-[:GRADUATED_FROM]->(BethlehemCatholic),
+(SebastianCostantini)-[:GRADUATED_FROM]->(MalvernPrep),
+(BradleyKing)-[:GRADUATED_FROM]->(GenevaCommunity),
+(JordanStout)-[:GRADUATED_FROM]->(Honaker),
+(KeAndreLambertSmith)-[:GRADUATED_FROM]->(Maury),
+(EnzoJennings)-[:GRADUATED_FROM]->(OakPark),
+(JosephJohnsonIII)-[:GRADUATED_FROM]->(LifeChristianAcademy),
+(JadenDottin)-[:GRADUATED_FROM]->(SuffieldAcademyConn),
+(CaziahHolmes)-[:GRADUATED_FROM]->(Cocoa),
+(BryceMostella)-[:GRADUATED_FROM]->(EastKentwood),
+(TankSmith)-[:GRADUATED_FROM]->(PennHills),
+(TylerElsdon)-[:GRADUATED_FROM]->(NorthSchuylkill),
+(FatormaMulbah)-[:GRADUATED_FROM]->(Susquehanna),
+(NickDawkins)-[:GRADUATED_FROM]->(Parkland),
+(TheoJohnson)-[:GRADUATED_FROM]->(HolyNamesCatholic),
+(ColeBrevard)-[:GRADUATED_FROM]->(Carmel)
